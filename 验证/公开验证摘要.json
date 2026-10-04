@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "releaseVersion": "1.0.0",
+  "claudeDesktopVersion": "2.19675.0",
+  "msixVersion": "2.19675.0.0",
+  "platform": "Windows x64",
+  "manifestSha256": "57E0BCA2C44D89E350195A9F328A0CEAEC043A20ECC2F410E9F3C36AC463C130",
+  "verifiedDate": "2026-10-04",
+  "translationCounts": {
+    "frontend": 11958,
+    "native": 746,
+    "dynamic": 49
+  },
+  "localInstall": {
+    "installed": true,
+    "resourceHashMismatches": 0,
+    "accessRuleMismatches": 0,
+    "repeatInstallPassed": true,
+    "restoredOriginalFileMismatches": 0,
+    "officialCoreUnchanged": true,
+    "officialSignaturesValid": true,
+    "extraDesktopShortcutCreated": false
+  },
+  "targetedUi": {
+    "builtinSkillTooltips": 11,
+    "skillDescriptions": 15,
+    "pluginDescriptions": 2,
+    "recommendationCards": 6,
+    "connectorStatuses": 9,
+    "passed": true,
+    "boundary": "Recorded targeted views and representative detail pages; not all reachable product pages"
+  },
+  "coworkSandbox": {
+    "passed": true,
+    "actualBashToolResponseObserved": true,
+    "linuxAssertionPassed": true,
+    "temporaryWriteReadAssertionPassed": true,
+    "independentHashMatched": true,
+    "originalOutputPreserved": true,
+    "sandboxUnavailableErrorObserved": false,
+    "exitCode": null,
+    "exitCodeNote": "Tool UI did not expose a separate numeric exit code",
+    "model": "DeepSeek V4.1 Flash",
+    "boundary": "One actual task in an existing sandbox; not first-time VM installation or all tools"
+  },
+  "isolatedPathAndRestoreTests": {
+    "passed": true,
+    "modules": 4,
+    "boundary": "Real patch modules in fixture directories; not a second physical computer"
+  },
+  "unverified": [
+    "Login and authentication failures",
+    "Real security permission decisions",
+    "First-time VM download and installation, failure branches",
+    "Notifications and startup",
+    "Some transient states",
+    "Other unvisited detail pages",
+    "Second physical computer"
+  ],
+  "advancedDiagnosticMenus": "Four native diagnostic labels kept English by user choice",
+  "privacy": "Public summary excludes machine paths, account/session identifiers, logs, private configuration and backups"
+}

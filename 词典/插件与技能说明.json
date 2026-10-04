@@ -1,0 +1,108 @@
+{
+  "version": "2.19675.0",
+  "scope": "Known plugin/skill descriptions and six scheduled-task recommendation card labels at renderer display reads only; original definitions, task payloads, names, examples and prompts remain unchanged.",
+  "rows": [
+    {
+      "kind": "plugin",
+      "name": "productivity",
+      "original": "Manage tasks, plan your day, and build up memory of important context about your work. Syncs with your calendar, email, and chat to keep everything organized and on track.",
+      "translation": "管理任务、安排日程，并记住工作中的重要背景信息。与日历、邮件和聊天同步，让各项事务井然有序、按计划推进。"
+    },
+    {
+      "kind": "plugin",
+      "name": "cowork-compat",
+      "original": "Local Cowork compaction, usage accounting and portable document fixes.",
+      "translation": "为本地 Cowork 提供上下文压缩、用量统计和文档兼容性修复，支持跨电脑使用。"
+    },
+    {
+      "kind": "skill",
+      "name": "memory-management",
+      "original": "Two-tier memory system that makes Claude a true workplace collaborator. Decodes shorthand, acronyms, nicknames, and internal language so Claude understands requests like a colleague would. CLAUDE.md for working memory, memory/ directory for the full knowledge base.",
+      "translation": "通过两层记忆系统，让 Claude 更好地理解你的工作。识别简写、缩写、昵称和内部用语，像同事一样理解你的需求。CLAUDE.md 保存日常工作记忆，memory/ 目录保存完整知识库。"
+    },
+    {
+      "kind": "skill",
+      "name": "start",
+      "original": "Initialize the productivity system and open the dashboard. Use when setting up the plugin for the first time, bootstrapping working memory from your existing task list, or decoding the shorthand (nicknames, acronyms, project codenames) you use in your todos.",
+      "translation": "初始化任务与记忆系统，并打开仪表板。适合首次设置插件、根据现有任务列表建立工作记忆，或解释待办事项中的简写、昵称、缩写和项目代号。"
+    },
+    {
+      "kind": "skill",
+      "name": "task-management",
+      "original": "Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, wants to add/complete tasks, or needs help tracking commitments.",
+      "translation": "通过共享的 TASKS.md 文件管理任务。可用于查看、添加或完成任务，以及跟进承诺事项。"
+    },
+    {
+      "kind": "skill",
+      "name": "update",
+      "original": "Sync tasks and refresh memory from your current activity. Use when pulling new assignments from your project tracker into TASKS.md, triaging stale or overdue tasks, filling memory gaps for unknown people or projects, or running a comprehensive scan to catch todos buried in chat and email.",
+      "translation": "根据近期活动同步任务并更新记忆。可将项目管理工具中的新任务汇入 TASKS.md、整理久未更新或逾期的任务、补充人员和项目背景，或全面查找聊天与邮件中遗漏的待办事项。"
+    },
+    {
+      "kind": "skill",
+      "name": "consolidate-memory",
+      "original": "Reflective pass over your memory files — merge duplicates, fix stale facts, prune the index.",
+      "translation": "检查并整理记忆文件：合并重复内容、修正过时信息，并精简索引。"
+    },
+    {
+      "kind": "skill",
+      "name": "context",
+      "original": "Show what's using your context window",
+      "translation": "查看哪些内容占用了上下文窗口。"
+    },
+    {
+      "kind": "skill",
+      "name": "docx",
+      "original": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of Microsoft Word Documents, such as 'Word doc', 'word document', '.docx', '.dotx', 'microsoft doc'. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead, even if they will email or print it. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
+      "translation": "用于创建、读取、编辑和处理 Word 文档（.docx）或模板（.dotx）。提到 Microsoft Word 文档、Word doc、word document、.docx、.dotx 或 microsoft doc 时可使用。也适合提取或重组文档内容、插入或替换图片、查找替换、处理修订和批注，以及整理成完整的 Word 文档。如果需要交付可下载、发送邮件或打印的 Word 或 .docx 文件，使用此技能。如果只要求文档、页面、报告、备忘录或笔记，未指定格式，而当前会话提供了 Claude 专用的文档或页面技能、连接器，则优先使用那些工具，即使最终需要邮件发送或打印。此技能不用于 PDF、电子表格、Google Docs 或与文档生成无关的编程。"
+    },
+    {
+      "kind": "skill",
+      "name": "explain-usage",
+      "original": "Explain where this session's tokens went, with one simple chart in plain language. Use when the user says things like \"explain my usage\", \"where did my tokens go\", or asks for a usage breakdown.",
+      "translation": "用一张简单图表和易懂的语言，说明本次会话的 token 用量分布。适合回答 explain my usage、where did my tokens go 等用量查询，或提供用量明细。"
+    },
+    {
+      "kind": "skill",
+      "name": "frontend-design",
+      "original": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "translation": "为新界面或现有界面改版提供视觉设计建议，帮助确定风格、字体和设计细节，让界面更有辨识度，避免套用普通模板。"
+    },
+    {
+      "kind": "skill",
+      "name": "pdf",
+      "original": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "translation": "用于处理 PDF 文件，包括读取或提取文字和表格、合并、拆分、旋转页面、添加水印、创建 PDF、填写表单、加密和解密、提取图片，以及对扫描件进行 OCR 识别，使其可以搜索。提到 .pdf 文件或需要生成 PDF 时可使用。"
+    },
+    {
+      "kind": "skill",
+      "name": "pdf-reading",
+      "original": "Use this skill when you need to read, inspect, or extract content from PDF files — especially when file content is NOT in your context and you need to read it from disk. Covers content inventory, text extraction, page rasterization for visual inspection, embedded image/attachment/table/form-field extraction, and choosing the right reading strategy for different document types (text-heavy, scanned, slide-decks, forms, data-heavy). Do NOT use this skill for PDF creation, form filling, merging, splitting, watermarking, or encryption — use the pdf skill instead.",
+      "translation": "用于读取、检查或提取 PDF 内容，尤其适合文件内容尚未载入上下文、需要从磁盘读取的情况。涵盖内容清点、文字提取、页面转为图片进行检查、嵌入图片及附件、表格和表单字段提取，并根据文本密集、扫描件、幻灯片、表单或数据密集等文档类型选择阅读方式。不用于创建 PDF、填写表单、合并、拆分、添加水印或加密；这些操作请使用 pdf 技能。"
+    },
+    {
+      "kind": "skill",
+      "name": "pptx",
+      "original": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) files; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email, summary, or creating a different type of slide deck); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user asks for a PowerPoint or .pptx file, or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. However, when the user asks for a deck, slides, a slide deck, or a presentation without naming a file format, default to using a dedicated slide-deck artifact type or a separate slides skill if this session offers one; otherwise, use this skill.",
+      "translation": "用于涉及 .pptx 或 .potx 文件的任务，无论它是输入、输出还是两者兼有。支持创建 PowerPoint（.pptx）幻灯片和演示文稿；读取、解析或提取 .pptx、.potx 中的文字，即使提取后会用于邮件、摘要或其他演示文稿；编辑、更新、合并或拆分幻灯片文件，以及处理模板（.potx）、版式、演讲者备注和批注。用户要求 PowerPoint、.pptx 文件，或提到 .pptx、.potx 文件名时可使用。如果只要求幻灯片或演示文稿而未指定格式，当前会话有专用演示文稿功能或独立的幻灯片技能时优先使用它们，否则使用此技能。"
+    },
+    {
+      "kind": "skill",
+      "name": "schedule",
+      "original": "Create or update a scheduled task that runs automatically. Use when the user says things like \"every day\", \"each morning\", \"remind me in an hour\", \"run this at noon\", or wants to reschedule an existing task.",
+      "translation": "创建或更新自动运行的计划任务。适合每天、每天早晨、一小时后提醒、中午运行等安排，也可调整已有任务的时间。"
+    },
+    {
+      "kind": "skill",
+      "name": "setup-claude",
+      "original": "Guided setup — install a matching plugin, try a skill, connect tools.",
+      "translation": "引导完成设置：安装合适的插件、试用技能并连接工具。"
+    },
+    {
+      "kind": "skill",
+      "name": "xlsx",
+      "original": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "translation": "用于以电子表格文件作为主要输入或输出的任务，包括打开、读取、编辑或修复 .xlsx、.xlsm、.xltx、.csv、.tsv 文件，添加列、计算公式、调整格式、制图或清理数据；从零或其他数据源创建表格；以及转换表格格式。用户提到文件名或路径并要求处理该文件时可使用，也适合把错位表头、异常行和杂乱数据整理为规范表格。最终交付物必须是电子表格文件。如果主要交付物是 Word 文档、HTML 报告、独立 Python 脚本、数据库数据处理流程或 Google Sheets API 集成，即使涉及表格数据，也不使用此技能。"
+    }
+  ]
+}

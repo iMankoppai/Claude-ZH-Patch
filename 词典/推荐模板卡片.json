@@ -1,0 +1,78 @@
+{
+  "version": "2.19675.0",
+  "scope": "Display labels only; actual template definitions, names and promptBody remain original.",
+  "rows": [
+    {
+      "kind": "template-title",
+      "name": "daily_briefing",
+      "original": "Daily briefing",
+      "translation": "每日简报"
+    },
+    {
+      "kind": "template-title",
+      "name": "inbox_triage",
+      "original": "Inbox triage",
+      "translation": "收件箱整理"
+    },
+    {
+      "kind": "template-title",
+      "name": "meeting_prep",
+      "original": "Meeting prep",
+      "translation": "会前准备"
+    },
+    {
+      "kind": "template-title",
+      "name": "weekly_review",
+      "original": "Weekly review",
+      "translation": "每周回顾"
+    },
+    {
+      "kind": "template-title",
+      "name": "content_ideas",
+      "original": "Content ideas",
+      "translation": "内容灵感"
+    },
+    {
+      "kind": "template-title",
+      "name": "monitor_topic",
+      "original": "Monitor a topic",
+      "translation": "关注主题"
+    },
+    {
+      "kind": "template-description",
+      "name": "daily_briefing",
+      "original": "What needs your attention today across calendar, email, and messages.",
+      "translation": "汇总日历、邮件和消息中今天需要你关注的事项。"
+    },
+    {
+      "kind": "template-description",
+      "name": "inbox_triage",
+      "original": "Categorize your inbox and draft replies to anything urgent.",
+      "translation": "整理收件箱，并为紧急邮件起草回复。"
+    },
+    {
+      "kind": "template-description",
+      "name": "meeting_prep",
+      "original": "A short brief before each meeting on your calendar, covering attendees, context, and agenda.",
+      "translation": "在每场日历会议前提供简报，介绍参会人员、相关背景和议程。"
+    },
+    {
+      "kind": "template-description",
+      "name": "weekly_review",
+      "original": "A Friday summary of what happened this week.",
+      "translation": "每周五回顾本周的重要事项。"
+    },
+    {
+      "kind": "template-description",
+      "name": "content_ideas",
+      "original": "Draft a few post ideas each week from the latest news in your industry.",
+      "translation": "每周结合行业最新动态，构思几个发布内容的选题。"
+    },
+    {
+      "kind": "template-description",
+      "name": "monitor_topic",
+      "original": "Watch for news or mentions of a topic, competitor, or keyword.",
+      "translation": "跟进与某个主题、竞争对手或关键词相关的新闻和讨论。"
+    }
+  ]
+}

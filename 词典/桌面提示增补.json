@@ -1,0 +1,209 @@
+{
+  "scope": "Reviewed fixed software UI messages, not user prompts or tool output",
+  "rows": [
+    {
+      "original": "{orgName} hasn’t finished setting up the Claude desktop app. Ask your admin to complete the setup.",
+      "translation": "{orgName} 尚未完成 Claude 桌面应用配置。请联系管理员完成配置。"
+    },
+    {
+      "original": "This chat couldn’t take your Quick Entry message right now, so it was put in the message box instead of being sent. You can send it from there.",
+      "translation": "此聊天暂时无法接收快捷输入消息，因此消息已放入输入框，尚未发送。你可以从输入框发送。"
+    },
+    {
+      "original": "Desktop sign-in",
+      "translation": "桌面应用登录"
+    },
+    {
+      "original": "To change the instructions, model, permissions, or folders, use the Claude desktop app on {name}.",
+      "translation": "如需更改指令、模型、权限或文件夹，请使用 {name} 上的 Claude 桌面应用。"
+    },
+    {
+      "original": "Where Claude Code users can learn more about setting up this MCP server.",
+      "translation": "Claude Code 用户了解此 MCP 服务器配置方法的位置。"
+    },
+    {
+      "original": "Community desktop extensions aren’t verified by Anthropic. We don’t control the tools they make available and can’t guarantee they’ll work as intended or won’t change, so only install desktop extensions from developers you trust. <a>Learn more</a>.",
+      "translation": "社区桌面扩展未经 Anthropic 验证。我们不控制其提供的工具，也无法保证工具按预期工作或不会发生变化。请仅安装来自可信开发者的桌面扩展。<a>了解更多</a>。"
+    },
+    {
+      "original": "Continue this session in the cloud, or open Claude Code on that computer, sign in again, and start a new session.",
+      "translation": "请在云端继续此会话，或在对应电脑上打开 Claude Code，重新登录并开始新会话。"
+    },
+    {
+      "original": "Claude Desktop on this session’s computer is switched to {otherOrg}. Switch it to {currentOrg} to reconnect.",
+      "translation": "此会话所在电脑的 Claude Desktop 已切换到 {otherOrg}。请切换到 {currentOrg} 后重新连接。"
+    },
+    {
+      "original": "These permissions apply to Claude in Chrome and the built-in browser in the Claude desktop app.",
+      "translation": "这些权限适用于 Claude in Chrome 及 Claude 桌面应用的内置浏览器。"
+    },
+    {
+      "original": "For security, Claude Code needs a recent sign-in.",
+      "translation": "出于安全考虑，Claude Code 需要最近的登录验证。"
+    },
+    {
+      "original": "Claude started its own copy of Claude Code through your organization’s launcher, but a different version answered. Claude only works with the version it installed, so the session was ended. Contact your IT team.",
+      "translation": "Claude 通过组织启动器启动了自己安装的 Claude Code，但响应来自其他版本。Claude 仅支持其安装的版本，因此会话已结束。请联系 IT 部门。"
+    },
+    {
+      "original": "Couldn’t attach an image from Quick Entry; sending the message without it.",
+      "translation": "无法附加快捷输入中的图像，将不带图像发送消息。"
+    },
+    {
+      "original": "SSH connected, but your home directory on {host} is on a read-only filesystem, so Claude Code couldn’t be installed. Remount it read-write or fix the disk on {host}, then try again.",
+      "translation": "SSH 已连接，但 {host} 上的主目录位于只读文件系统，无法安装 Claude Code。请以读写方式重新挂载，或修复 {host} 上的磁盘后重试。"
+    },
+    {
+      "original": "Claude Code doesn’t have permission to read a file or folder in your .claude folder.",
+      "translation": "Claude Code 无权读取 .claude 文件夹中的某个文件或文件夹。"
+    },
+    {
+      "original": "Claude only works with the version of Claude Code it installed on {host}, so it ended the session. Send the details to your IT team.",
+      "translation": "Claude 仅支持其在 {host} 上安装的 Claude Code 版本，因此会话已结束。请将详细信息提供给 IT 部门。"
+    },
+    {
+      "original": "Claude Code on the computer running this session has been signed out. Open Claude Code there and sign in again, then start a new session to continue.",
+      "translation": "运行此会话的电脑上的 Claude Code 已退出登录。请在那里打开 Claude Code 并重新登录，然后开始新会话。"
+    },
+    {
+      "original": "Bypass permissions can’t be used when Claude Code runs as root. Run Claude Code as a non-root user, or turn off Allow bypass permissions mode in Settings → Claude Code.",
+      "translation": "Claude Code 以 root 运行时，无法使用绕过权限模式。请使用非 root 用户运行，或在“设置 → Claude Code”中关闭“允许绕过权限模式”。"
+    },
+    {
+      "original": "This copy of Claude Code was built for a different processor. Reinstall the version of Claude for this computer.",
+      "translation": "此 Claude Code 版本是为其他处理器构建的。请重新安装适用于此电脑的 Claude 版本。"
+    },
+    {
+      "original": "The GitHub CLI enables creating PRs, monitoring CI, and merging directly from the desktop app. You can press Enter in the terminal to install it with winget and follow its prompts.",
+      "translation": "GitHub CLI 可让你直接从桌面应用创建 PR、查看 CI 和合并。你可以在终端按 Enter，通过 winget 安装并按照提示操作。"
+    },
+    {
+      "original": "Claude Code on {host} has been signed out. Open Claude Code there and sign in again, then start a new session to continue.",
+      "translation": "{host} 上的 Claude Code 已退出登录。请在那里打开 Claude Code 并重新登录，然后开始新会话。"
+    },
+    {
+      "original": "This device isn’t verified for Claude Code access. Sign in again to verify it, then change the effort.",
+      "translation": "此设备尚未通过 Claude Code 访问验证。请重新登录以验证设备，再更改投入度。"
+    },
+    {
+      "original": "Claude Code on the computer running this session is offline. If that computer is asleep or lost its connection, this session reconnects when it’s back. If Claude Code was closed, start it there again and reopen this conversation.",
+      "translation": "运行此会话的电脑上的 Claude Code 已离线。如果电脑处于休眠或失去连接，恢复后会话会重新连接。如果 Claude Code 已关闭，请在那里重新启动，再打开此对话。"
+    },
+    {
+      "original": "A message you sent is still waiting. The host is connected, but Claude Code didn’t start there. Retry or withdraw it below.",
+      "translation": "你发送的一条消息仍在等待。主机已连接，但 Claude Code 未在那里启动。请在下方重试或撤回。"
+    },
+    {
+      "original": "“ANTHROPIC_API_KEY” won’t be used to authenticate requests. Claude Code sessions are authenticated through your Anthropic account.",
+      "translation": "“ANTHROPIC_API_KEY”不会用于请求认证。Claude Code 会话通过你的 Anthropic 账户认证。"
+    },
+    {
+      "original": "Your sign-in has expired for Claude Code access. Sign in again to change the effort on your device.",
+      "translation": "你的 Claude Code 访问登录已过期。请重新登录，再更改此设备上的投入度。"
+    },
+    {
+      "original": "Claude Code on {host} is offline. If {host} is asleep or lost its connection, this session reconnects when it’s back. If Claude Code was closed, start it there again and reopen this conversation.",
+      "translation": "{host} 上的 Claude Code 已离线。如果 {host} 处于休眠或失去连接，恢复后会话会重新连接。如果 Claude Code 已关闭，请在那里重新启动，再打开此对话。"
+    },
+    {
+      "original": "Signing in again registers this device for Claude Code.",
+      "translation": "重新登录会为此设备注册 Claude Code。"
+    },
+    {
+      "original": "Claude Code on {host} needs to sign in again",
+      "translation": "{host} 上的 Claude Code 需要重新登录"
+    },
+    {
+      "original": "To change the instructions, model, permissions, or folders, update the Claude desktop app.",
+      "translation": "如需更改指令、模型、权限或文件夹，请更新 Claude 桌面应用。"
+    },
+    {
+      "original": "This task is linked to a different Claude desktop install. Add folders from that install, or start a new task here.",
+      "translation": "此任务关联了另一处 Claude 桌面安装。请从对应安装中添加文件夹，或在此开始新任务。"
+    },
+    {
+      "original": "Marketplaces added with Claude Code on this computer. Removing one also uninstalls its plugins.",
+      "translation": "通过此电脑上的 Claude Code 添加的市场。移除市场也会卸载其插件。"
+    },
+    {
+      "original": "This device isn’t verified for Claude Code access. Sign in again to verify it, then change the model.",
+      "translation": "此设备尚未通过 Claude Code 访问验证。请重新登录以验证设备，再更改模型。"
+    },
+    {
+      "original": "Show Claude in the system tray.",
+      "translation": "在系统托盘显示 Claude。"
+    },
+    {
+      "original": "Claude can’t reconnect to the Claude Code process that’s still running there, so it was left alone and its work so far is saved. Restart the remote session to start it fresh — anything it’s still doing, including background agents, will be lost.",
+      "translation": "Claude 无法重新连接到仍在那里运行的 Claude Code 进程，因此保留了该进程及其已有工作。重启远程会话可重新开始，但该进程仍在进行的工作，包括后台智能体，将会丢失。"
+    },
+    {
+      "original": "Log in with the same Claude account you use in Claude Desktop to finish connecting. You’ll choose which account to connect in the next step.",
+      "translation": "请使用与 Claude Desktop 相同的 Claude 账户登录以完成连接。下一步将选择要连接的账户。"
+    },
+    {
+      "original": "This deletes the cookies, sign-ins, and site data the browser saves for every Code session and Cowork. You’ll need to sign in to sites again.",
+      "translation": "这会删除浏览器为所有 Code 会话和 Cowork 保存的 Cookie、登录状态及站点数据。之后需要重新登录各站点。"
+    },
+    {
+      "original": "Your session has expired for Cowork access. Sign in again to reconnect this device.",
+      "translation": "你的 Cowork 访问会话已过期。请重新登录以重新连接此设备。"
+    },
+    {
+      "original": "Couldn’t send the message from Quick Entry. Try again.",
+      "translation": "无法发送快捷输入消息。请重试。"
+    },
+    {
+      "original": "Claude Code is installed on {host} but isn’t responding; give the host a minute, then try again.",
+      "translation": "{host} 上已安装 Claude Code，但没有响应。请稍等片刻后重试。"
+    },
+    {
+      "original": "Claude Code’s files are missing or damaged. Reinstall Claude to continue.",
+      "translation": "Claude Code 的文件缺失或损坏。请重新安装 Claude 后继续。"
+    },
+    {
+      "original": "Claude Code was busy, so the reconnect didn’t start. Try again in a moment.",
+      "translation": "Claude Code 正忙，未能开始重新连接。请稍后重试。"
+    },
+    {
+      "original": "Tasks created here run in the cloud and can’t use this computer’s folders or local tools. To run a task on this computer, create it from the desktop app.",
+      "translation": "在此创建的任务在云端运行，无法使用此电脑的文件夹或本地工具。如需在此电脑运行任务，请从桌面应用创建。"
+    },
+    {
+      "original": "The connection dropped, and on reconnecting Claude Code on {host} wasn’t responding; give the host a minute, then reconnect.",
+      "translation": "连接已中断，重连时 {host} 上的 Claude Code 没有响应。请稍等片刻后重新连接。"
+    },
+    {
+      "original": "Your sign-in has expired for Claude Code access. Sign in again to change the model on your device.",
+      "translation": "你的 Claude Code 访问登录已过期。请重新登录，再更改此设备上的模型。"
+    },
+    {
+      "original": "This is a desktop extension. It runs locally in Claude Desktop — team members install it on their own computers, and it can’t be installed from the web.",
+      "translation": "这是桌面扩展，在 Claude Desktop 中本地运行。团队成员需在自己的电脑上安装，无法从网页安装。"
+    },
+    {
+      "original": "Claude Desktop on this task’s computer is switched to {otherOrg}. Switch it to {currentOrg} to reconnect.",
+      "translation": "此任务所在电脑的 Claude Desktop 已切换到 {otherOrg}。请切换到 {currentOrg} 后重新连接。"
+    },
+    {
+      "original": "To change the instructions, model, permissions, or folders, use the Claude desktop app on that computer.",
+      "translation": "如需更改指令、模型、权限或文件夹，请使用对应电脑上的 Claude 桌面应用。"
+    },
+    {
+      "original": "Will run in the cloud only. To let it use a computer, approve from the Claude desktop app on that computer.",
+      "translation": "仅在云端运行。如需使用某台电脑，请从该电脑上的 Claude 桌面应用批准。"
+    },
+    {
+      "original": "SSH connected, but {host} has no free disk space (or your quota there is used up), so Claude Code couldn’t be installed. Free some space on {host} — your home directory (Claude keeps its files under ~/.claude) or /tmp — then try again.",
+      "translation": "SSH 已连接，但 {host} 没有可用磁盘空间，或你的配额已用尽，无法安装 Claude Code。请清理 {host} 的主目录（Claude 文件位于 ~/.claude）或 /tmp 后重试。"
+    },
+    {
+      "original": "This chat can’t take new messages here, so your Quick Entry message wasn’t sent.",
+      "translation": "此聊天无法在此接收新消息，因此快捷输入消息未发送。"
+    },
+    {
+      "original": "This browser is signed in as {email}. To connect {product} to the account you used in the desktop app, sign out here and sign in with that account.",
+      "translation": "此浏览器当前以 {email} 登录。如需将 {product} 连接到桌面应用使用的账户，请先在此退出，再使用对应账户登录。"
+    }
+  ]
+}

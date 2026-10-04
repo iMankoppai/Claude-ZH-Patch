@@ -1,0 +1,6 @@
+/dist/
+/本机只读校验.json
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

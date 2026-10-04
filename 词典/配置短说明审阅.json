@@ -1,0 +1,6240 @@
+{
+  "utc": "2026-10-04T06:00:35.887Z",
+  "reviewed": 467,
+  "translations": 359,
+  "preserved": 108,
+  "scope": "All 467 candidates from both provider modules manually inspected. Name/example/configuration/translator metadata preserved; fixed labels/descriptions/errors translated.",
+  "rows": [
+    {
+      "i": 0,
+      "original": "Header “{name}” looks like a credential. Use the headers helper script so the secret isn’t stored in the config file.",
+      "translation": "请求头“{name}”看起来包含凭据。请使用请求头助手脚本，避免将密钥存入配置文件。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 6430
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "original": "Header “{name}” looks like a credential. Use the credential helper script (it can print headers) so the secret isn’t stored in the config file.",
+      "translation": "请求头“{name}”看起来包含凭据。请使用凭据助手脚本（可输出请求头），避免将密钥存入配置文件。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 6618
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "original": "X-Header-Name",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 7938
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "original": "/usr/local/bin/corp-cred-helper",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 9792
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "original": "Helper script TTL",
+      "translation": "助手脚本缓存 TTL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 12000
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "original": "Helper output is cached for this many seconds; once it expires the helper re-runs without a relaunch (before the next turn when set above 120).",
+      "translation": "助手输出缓存的秒数；到期后无需重启即可重新运行助手（大于 120 时，在下一轮开始前运行）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 12183
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "original": "Credential helper timeout",
+      "translation": "凭据助手超时",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 12626
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "original": "Maximum wait for the helper executable to finish. Raise this if the helper opens a browser for interactive sign-in.",
+      "translation": "等待助手程序完成的最长时间。如果助手会打开浏览器进行交互式登录，可增大此值。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 12815
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "original": "default",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 13934
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "original": "~/.aws",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 14459
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "original": "/usr/local/bin/aws",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 14957
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "original": "us-west-2",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 15786
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "original": "AWS region for the Bedrock runtime endpoint.",
+      "translation": "Bedrock 运行时端点所在的 AWS 区域。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 15855
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "original": "Bedrock base URL",
+      "translation": "Bedrock 基础 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 16274
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "original": "https://bedrock-mantle.us-east-1.api.aws/anthropic",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 16417
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "original": "https://vpce-0123-abcd.bedrock-runtime.us-east-1.vpce.amazonaws.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 16520
+        }
+      ]
+    },
+    {
+      "i": 16,
+      "original": "AWS bearer token",
+      "translation": "AWS Bearer 令牌",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 17125
+        }
+      ]
+    },
+    {
+      "i": 17,
+      "original": "Passed to the helper script as AWS_PROFILE.",
+      "translation": "以 AWS_PROFILE 传给助手脚本。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 17609
+        }
+      ]
+    },
+    {
+      "i": 18,
+      "original": "Directory holding the AWS config and credentials files. Passed to the helper script as AWS_CONFIG_FILE and AWS_SHARED_CREDENTIALS_FILE.",
+      "translation": "存放 AWS 配置和凭据文件的目录。以 AWS_CONFIG_FILE 和 AWS_SHARED_CREDENTIALS_FILE 传给助手脚本。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 17866
+        }
+      ]
+    },
+    {
+      "i": 19,
+      "original": "Absolute path to the aws executable, shared with the Bedrock profile setting. Not passed to the helper script.",
+      "translation": "aws 程序的绝对路径，与 Bedrock 配置项共用，不会传给助手脚本。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 18188
+        }
+      ]
+    },
+    {
+      "i": 20,
+      "original": "Passed to the helper script as AWS_REGION.",
+      "translation": "以 AWS_REGION 传给助手脚本。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 18501
+        }
+      ]
+    },
+    {
+      "i": 21,
+      "original": "Helper script (Windows)",
+      "translation": "助手脚本（Windows）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 18921
+        }
+      ]
+    },
+    {
+      "i": 22,
+      "original": "C:\\Program Files\\Corp\\cred-helper.exe",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 19037
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "original": "Absolute path of the helper executable on Windows devices, used there instead of Helper script. Leave unset to use Helper script on every operating system.",
+      "translation": "Windows 设备上助手程序的绝对路径，用于替代“助手脚本”。留空则所有操作系统均使用“助手脚本”。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 19137
+        }
+      ]
+    },
+    {
+      "i": 24,
+      "original": "Helper script arguments",
+      "translation": "助手脚本参数",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 20103
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "original": "[\"--environment\", \"production\"]",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 20242
+        }
+      ]
+    },
+    {
+      "i": 26,
+      "original": "Arguments passed to the helper script, one per entry, in order. Leave unset to run it with none.",
+      "translation": "按顺序传给助手脚本的参数，每项一个。留空则不传参数。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 20333
+        }
+      ]
+    },
+    {
+      "i": 27,
+      "original": "No API resource scope set. On IdPs where the requested scopes decide the access-token audience (e.g. Entra ID), this yields a token for the IdP’s own APIs, not your gateway or proxy. Add its API scope (Entra: api://APP_ID/.default). Ignore this if your IdP sets the token audience out-of-band (Keycloak audience mapper, Auth0 default audience, Okta custom-AS audience).",
+      "translation": "未设置 API 资源作用域。对于由请求作用域决定访问令牌受众的 IdP（如 Entra ID），生成的令牌用于 IdP 自身的 API，而非网关或代理。请添加对应的 API 作用域（Entra：api://APP_ID/.default）。若 IdP 通过其他方式设置令牌受众（Keycloak 受众映射器、Auth0 默认受众、Okta 自定义授权服务器受众），可忽略此提示。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 27232
+        }
+      ]
+    },
+    {
+      "i": 28,
+      "original": "Gateway SSO IdP (OIDC)",
+      "translation": "网关 SSO 身份提供商（OIDC）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 32769
+        }
+      ]
+    },
+    {
+      "i": 29,
+      "original": "https://llm-gateway.example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 36410
+        }
+      ]
+    },
+    {
+      "i": 30,
+      "original": "Gateway-managed Claude Code",
+      "translation": "网关管理的 Claude Code",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 39105
+        }
+      ]
+    },
+    {
+      "i": 31,
+      "original": "When true, sessions for users signed in through the gateway’s own sign-in run Claude Code in its gateway mode. Gateway provider only. Default false.",
+      "translation": "开启后，通过网关自身登录流程登录的用户，其会话会以网关模式运行 Claude Code。仅适用于 Gateway 提供商，默认关闭。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 39253
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "original": "sk-ant-…",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 40660
+        }
+      ]
+    },
+    {
+      "i": 33,
+      "original": "AWS SSO start URL",
+      "translation": "AWS SSO 起始 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 41301
+        }
+      ]
+    },
+    {
+      "i": 34,
+      "original": "https://d-1234567890.awsapps.com/start",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 41422
+        }
+      ]
+    },
+    {
+      "i": 35,
+      "original": "Enables in-app AWS sign-in (no AWS CLI needed). Set with the three SSO fields below.",
+      "translation": "启用应用内 AWS 登录，无需 AWS CLI。请同时设置下方三个 SSO 字段。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 41520
+        }
+      ]
+    },
+    {
+      "i": 36,
+      "original": "AWS SSO region",
+      "translation": "AWS SSO 区域",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 41844
+        }
+      ]
+    },
+    {
+      "i": 37,
+      "original": "us-east-1",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 42039
+        }
+      ]
+    },
+    {
+      "i": 38,
+      "original": "IAM Identity Center home region.",
+      "translation": "IAM Identity Center 的主区域。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 42108
+        }
+      ]
+    },
+    {
+      "i": 39,
+      "original": "AWS SSO account ID",
+      "translation": "AWS SSO 账户 ID",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 42401
+        }
+      ]
+    },
+    {
+      "i": 40,
+      "original": "12-digit AWS account ID assigned to users in IAM Identity Center.",
+      "translation": "IAM Identity Center 为用户分配的 12 位 AWS 账户 ID。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 42595
+        }
+      ]
+    },
+    {
+      "i": 41,
+      "original": "BedrockInference",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 43040
+        }
+      ]
+    },
+    {
+      "i": 42,
+      "original": "IAM Identity Center permission-set name granting bedrock:InvokeModel* on the account above.",
+      "translation": "在上述账户中授予 bedrock:InvokeModel* 权限的 IAM Identity Center 权限集名称。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 43116
+        }
+      ]
+    },
+    {
+      "i": 43,
+      "original": "Bedrock service tier",
+      "translation": "Bedrock 服务层级",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 43660
+        }
+      ]
+    },
+    {
+      "i": 44,
+      "original": "(on-demand)",
+      "translation": "（按需）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 43753
+        }
+      ]
+    },
+    {
+      "i": 45,
+      "original": "Sent as the X-Amzn-Bedrock-Service-Tier header. Leave unset for on-demand.",
+      "translation": "作为 X-Amzn-Bedrock-Service-Tier 请求头发送。留空则使用按需服务。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 43824
+        }
+      ]
+    },
+    {
+      "i": 46,
+      "original": "IAM role for the Microsoft 365 add-in",
+      "translation": "Microsoft 365 加载项的 IAM 角色",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 44464
+        }
+      ]
+    },
+    {
+      "i": 47,
+      "original": "arn:aws:iam::123456789012:role/claude-m365-addin",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 44574
+        }
+      ]
+    },
+    {
+      "i": 48,
+      "original": "Role the Microsoft 365 add-in assumes with the user’s Entra ID token (STS AssumeRoleWithWebIdentity). Not read by Claude Desktop.",
+      "translation": "Microsoft 365 加载项通过用户的 Entra ID 令牌承担的角色（STS AssumeRoleWithWebIdentity）。Claude Desktop 不读取此项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 44682
+        }
+      ]
+    },
+    {
+      "i": 49,
+      "original": "Vertex OAuth client ID",
+      "translation": "Vertex OAuth 客户端 ID",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 45514
+        }
+      ]
+    },
+    {
+      "i": 50,
+      "original": "NNN.apps.googleusercontent.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 45640
+        }
+      ]
+    },
+    {
+      "i": 51,
+      "original": "Desktop-app OAuth client ID. Enables Sign in with Google instead of a credentials file.",
+      "translation": "桌面应用的 OAuth 客户端 ID。启用 Google 登录，替代凭据文件。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 45730
+        }
+      ]
+    },
+    {
+      "i": 52,
+      "original": "Vertex OAuth client secret",
+      "translation": "Vertex OAuth 客户端密钥",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 46067
+        }
+      ]
+    },
+    {
+      "i": 53,
+      "original": "GOCSPX-...",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 46166
+        }
+      ]
+    },
+    {
+      "i": 54,
+      "original": "Secret for the Desktop-app OAuth client above. Google classifies installed-app client secrets as non-confidential, so this may be set from hosted config.",
+      "translation": "上述桌面应用 OAuth 客户端的密钥。Google 将已安装应用的客户端密钥视为非机密信息，因此可由托管配置设置。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 46236
+        }
+      ]
+    },
+    {
+      "i": 55,
+      "original": "Vertex OAuth scopes",
+      "translation": "Vertex OAuth 作用域",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 46616
+        }
+      ]
+    },
+    {
+      "i": 56,
+      "original": "openid email https://www.googleapis.com/auth/cloud-platform",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 46708
+        }
+      ]
+    },
+    {
+      "i": 57,
+      "original": "Override the Google OAuth scopes (space-separated). Leave blank for the default.",
+      "translation": "覆盖 Google OAuth 作用域，以空格分隔。留空使用默认值。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 46827
+        }
+      ]
+    },
+    {
+      "i": 58,
+      "original": "'{username}'@example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 47248
+        }
+      ]
+    },
+    {
+      "i": 59,
+      "original": "Workforce Identity (STS)",
+      "translation": "员工身份联合（STS）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 47934
+        }
+      ]
+    },
+    {
+      "i": 60,
+      "original": "//iam.googleapis.com/locations/global/workforcePools/POOL/providers/PROVIDER",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 48062
+        }
+      ]
+    },
+    {
+      "i": 61,
+      "original": "Workforce Identity IdP (OIDC)",
+      "translation": "员工身份联合的身份提供商（OIDC）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 49755
+        }
+      ]
+    },
+    {
+      "i": 62,
+      "original": "GCP credentials file path",
+      "translation": "GCP 凭据文件路径",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 50587
+        }
+      ]
+    },
+    {
+      "i": 63,
+      "original": "/etc/claude/vertex-sa.json",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 50685
+        }
+      ]
+    },
+    {
+      "i": 64,
+      "original": "Absolute path to service-account JSON. Leave blank to fall back to ADC.",
+      "translation": "服务账户 JSON 文件的绝对路径。留空则回退到 ADC。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 50771
+        }
+      ]
+    },
+    {
+      "i": 65,
+      "original": "GCP project ID",
+      "translation": "GCP 项目 ID",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 51168
+        }
+      ]
+    },
+    {
+      "i": 66,
+      "original": "my-gcp-project",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 51286
+        }
+      ]
+    },
+    {
+      "i": 67,
+      "original": "GCP region",
+      "translation": "GCP 区域",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 51682
+        }
+      ]
+    },
+    {
+      "i": 68,
+      "original": "us-east5",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 51999
+        }
+      ]
+    },
+    {
+      "i": 69,
+      "original": "GCP region where your Vertex AI Claude models are deployed.",
+      "translation": "部署 Vertex AI Claude 模型的 GCP 区域。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 52067
+        }
+      ]
+    },
+    {
+      "i": 70,
+      "original": "Vertex AI base URL",
+      "translation": "Vertex AI 基础 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 52396
+        }
+      ]
+    },
+    {
+      "i": 71,
+      "original": "https://REGION-aiplatform-ENDPOINT_ID.p.googleapis.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 52487
+        }
+      ]
+    },
+    {
+      "i": 72,
+      "original": "PSC endpoint, if using one.",
+      "translation": "如果使用 PSC，填写其端点。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 52601
+        }
+      ]
+    },
+    {
+      "i": 73,
+      "original": "device-code",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 54797
+        }
+      ]
+    },
+    {
+      "i": 74,
+      "original": "my-foundry-resource",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 56803
+        }
+      ]
+    },
+    {
+      "i": 75,
+      "original": "Azure AI Foundry resource name used to construct the endpoint URL.",
+      "translation": "用于构造端点 URL 的 Azure AI Foundry 资源名称。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 56882
+        }
+      ]
+    },
+    {
+      "i": 76,
+      "original": "Azure AI Foundry base URL",
+      "translation": "Azure AI Foundry 基础 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 57218
+        }
+      ]
+    },
+    {
+      "i": 77,
+      "original": "https://llm-gateway.example.com/foundry",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 57316
+        }
+      ]
+    },
+    {
+      "i": 78,
+      "original": "Full base URL for a gateway or proxy in front of Foundry, path included (replaces https://RESOURCE.services.ai.azure.com/anthropic).",
+      "translation": "Foundry 前方网关或代理的完整基础 URL，包含路径（替代 https://RESOURCE.services.ai.azure.com/anthropic）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 57415
+        }
+      ]
+    },
+    {
+      "i": 79,
+      "original": "Interactive sign-in",
+      "translation": "交互式登录",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 60576
+        }
+      ]
+    },
+    {
+      "i": 80,
+      "original": "Cloud vendor profile",
+      "translation": "云提供商配置",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 60651
+        }
+      ]
+    },
+    {
+      "i": 81,
+      "original": "Workforce Identity",
+      "translation": "员工身份联合",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 60720
+        }
+      ]
+    },
+    {
+      "i": 82,
+      "original": "Identity provider sign-in (OIDC)",
+      "translation": "身份提供商登录（OIDC）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 60798
+        }
+      ]
+    },
+    {
+      "i": 83,
+      "original": "Self-hosted execution",
+      "translation": "自托管执行",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 61022
+        }
+      ]
+    },
+    {
+      "i": 84,
+      "original": "Self-hosted bearer token",
+      "translation": "自托管 Bearer 令牌",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 61501
+        }
+      ]
+    },
+    {
+      "i": 85,
+      "original": "Static token sent as Authorization: Bearer. Prefer a helper script or sign-in.",
+      "translation": "作为 Authorization: Bearer 发送的静态令牌。建议使用助手脚本或登录流程。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 61674
+        }
+      ]
+    },
+    {
+      "i": 86,
+      "original": "Self-hosted execution URL",
+      "translation": "自托管执行 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 62313
+        }
+      ]
+    },
+    {
+      "i": 87,
+      "original": "https://claude-sessions.example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 62477
+        }
+      ]
+    },
+    {
+      "i": 88,
+      "original": "HTTPS endpoint of the self-hosted session host (beta).",
+      "translation": "自托管会话主机的 HTTPS 端点（测试版）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 62586
+        }
+      ]
+    },
+    {
+      "i": 89,
+      "original": "Shown in the skill list and used to run the skill. It replaces any skill a user added with the same name.",
+      "translation": "显示在技能列表中，并用于运行技能。将替换用户添加的同名技能。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 64967
+        }
+      ]
+    },
+    {
+      "i": 90,
+      "original": "Shown under the name in the skill list. Claude reads it to decide when to use the skill.",
+      "translation": "显示在技能列表的名称下方。Claude 据此决定何时使用该技能。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 65224
+        }
+      ]
+    },
+    {
+      "i": 91,
+      "original": "Where the add-in downloads the skill: a zip or a SKILL.md file. A pre-signed storage URL works.",
+      "translation": "加载项下载技能的位置：ZIP 或 SKILL.md 文件。支持预签名存储 URL。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 65445
+        }
+      ]
+    },
+    {
+      "i": 92,
+      "original": "SHA-256",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 65698
+        }
+      ]
+    },
+    {
+      "i": 93,
+      "original": "The add-in refuses a download with any other SHA-256, so a file that changed after you added it can’t install. Recommended.",
+      "translation": "若下载文件的 SHA-256 不同，加载项会拒绝下载，因此添加后发生变化的文件无法安装。建议设置。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 65774
+        }
+      ]
+    },
+    {
+      "i": 94,
+      "original": "Skill bundles",
+      "translation": "技能包",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 66703
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 66780
+        }
+      ]
+    },
+    {
+      "i": 95,
+      "original": "Skills the Microsoft 365 add-in installs for every user.",
+      "translation": "Microsoft 365 加载项为每位用户安装的技能。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 66910
+        }
+      ]
+    },
+    {
+      "i": 96,
+      "original": "anthropics/knowledge-work-plugins on GitHub",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 68498
+        }
+      ]
+    },
+    {
+      "i": 97,
+      "original": "Claude Code plugins",
+      "translation": "Claude Code 插件",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 68616
+        }
+      ]
+    },
+    {
+      "i": 98,
+      "original": "anthropics/claude-plugins-official on GitHub",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 68661
+        }
+      ]
+    },
+    {
+      "i": 99,
+      "original": "Claude for Financial Services",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 68781
+        }
+      ]
+    },
+    {
+      "i": 100,
+      "original": "anthropics/financial-services on GitHub",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 68836
+        }
+      ]
+    },
+    {
+      "i": 101,
+      "original": "Claude for Legal",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 68946
+        }
+      ]
+    },
+    {
+      "i": 102,
+      "original": "anthropics/claude-for-legal on GitHub",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 68988
+        }
+      ]
+    },
+    {
+      "i": 103,
+      "original": "Claude for Life Sciences",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 69094
+        }
+      ]
+    },
+    {
+      "i": 104,
+      "original": "anthropics/life-sciences on GitHub",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 69144
+        }
+      ]
+    },
+    {
+      "i": 105,
+      "original": "Auth",
+      "translation": "认证",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 70211
+        }
+      ]
+    },
+    {
+      "i": 106,
+      "original": "How fetches authenticate: anonymously, with the user’s git credentials, via a helper executable, or as the app does to its gateway or bootstrap server (url).",
+      "translation": "获取内容时的认证方式：匿名、用户的 Git 凭据、助手程序，或应用访问网关或引导服务器时使用的方式（url）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 70347
+        }
+      ]
+    },
+    {
+      "i": 107,
+      "original": "Executable that prints an access token for this marketplace.",
+      "translation": "输出此市场访问令牌的程序。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 72898
+        }
+      ]
+    },
+    {
+      "i": 108,
+      "original": "Ref",
+      "translation": "版本引用",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 74129
+        }
+      ]
+    },
+    {
+      "i": 109,
+      "original": "Branch, tag, or commit SHA",
+      "translation": "分支、标签或提交 SHA",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 74183
+        }
+      ]
+    },
+    {
+      "i": 110,
+      "original": "Subpath",
+      "translation": "子路径",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 74525
+        }
+      ]
+    },
+    {
+      "i": 111,
+      "original": "Manifest SHA-256",
+      "translation": "清单 SHA-256",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 74904
+        }
+      ]
+    },
+    {
+      "i": 112,
+      "original": "64-char hex SHA-256 of marketplace.json",
+      "translation": "marketplace.json 的 64 位十六进制 SHA-256",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 75012
+        }
+      ]
+    },
+    {
+      "i": 113,
+      "original": "SHA-256 of the exact marketplace.json to accept. Without it auto_install and required act as available; a served manifest with any other digest is refused.",
+      "translation": "允许接收的 marketplace.json 文件的精确 SHA-256。未设置时，auto_install 和 required 均按 available 处理；提供的清单摘要不符时会被拒绝。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 75111
+        }
+      ]
+    },
+    {
+      "i": 114,
+      "original": "GitHub",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 75521
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 115047
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 63476
+        }
+      ]
+    },
+    {
+      "i": 115,
+      "original": "Git URL",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 75570
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 83453
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 115096
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 117788
+        }
+      ]
+    },
+    {
+      "i": 116,
+      "original": "Marketplace URL",
+      "translation": "市场 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 75620
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 83498
+        }
+      ]
+    },
+    {
+      "i": 117,
+      "original": "Where the marketplace is fetched from: a GitHub repository (set repo), any Git remote (set url), or a hosted marketplace.json file (set url).",
+      "translation": "获取市场的位置：GitHub 仓库（设置 repo）、任意 Git 远程仓库（设置 url），或托管的 marketplace.json 文件（设置 url）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 75696
+        }
+      ]
+    },
+    {
+      "i": 118,
+      "original": "HTTPS Git remote of the marketplace repository (git), or direct HTTPS URL of a hosted marketplace.json file (url).",
+      "translation": "市场仓库的 HTTPS Git 远程地址（git），或托管 marketplace.json 文件的直接 HTTPS URL（url）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 78028
+        }
+      ]
+    },
+    {
+      "i": 119,
+      "original": "owner/repo",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 78430
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 116285
+        }
+      ]
+    },
+    {
+      "i": 120,
+      "original": "GitHub repository in owner/repo form. Case-insensitive.",
+      "translation": "以 owner/repo 格式填写 GitHub 仓库，不区分大小写。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 78500
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 116355
+        }
+      ]
+    },
+    {
+      "i": 121,
+      "original": "Organization plugins endpoint",
+      "translation": "组织插件端点",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 80144
+        }
+      ]
+    },
+    {
+      "i": 122,
+      "original": "Automatic installation needs {source, select, url {a Manifest SHA-256} other {a full 40-character commit SHA in Ref}}. Without one this marketplace is treated as available: it is listed, but this setting installs nothing.",
+      "translation": "自动安装需要{source, select, url {清单 SHA-256} other {“版本引用”中的完整 40 位提交 SHA}}。未设置时，此市场按可用处理：会显示在列表中，但此设置不会安装任何内容。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 83117
+        }
+      ]
+    },
+    {
+      "i": 123,
+      "original": "GitHub repo",
+      "translation": "GitHub 仓库",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 83400
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 117735
+        }
+      ]
+    },
+    {
+      "i": 124,
+      "original": "Salesforce",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 83557
+        }
+      ]
+    },
+    {
+      "i": 125,
+      "original": "salesforce/salesforce-skills on GitHub",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 83606
+        }
+      ]
+    },
+    {
+      "i": 126,
+      "original": "https://share.example.com/publish",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 83900
+        }
+      ]
+    },
+    {
+      "i": 127,
+      "original": "HTTPS address each published item is POSTed to, with no query or fragment. Plain http on a loopback host is taken only from device management or the local file.",
+      "translation": "每个发布项通过 POST 发送到的 HTTPS 地址，不得包含查询或片段。回环主机的普通 http 地址仅接受设备管理或本地文件配置。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 83996
+        }
+      ]
+    },
+    {
+      "i": 128,
+      "original": "What each request carries: nothing, a helper executable’s output as Authorization, or the credential the app already sends its gateway or bootstrap server.",
+      "translation": "每个请求携带的内容：无认证信息、作为 Authorization 的助手程序输出，或应用已发送给网关或引导服务器的凭据。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 84338
+        }
+      ]
+    },
+    {
+      "i": 129,
+      "original": "Organization sharing endpoint",
+      "translation": "组织分享端点",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 84901
+        }
+      ]
+    },
+    {
+      "i": 130,
+      "original": "HTTPS endpoint that receives the skills and plugins users publish to the organization. When set, users get a Publish to organization action.",
+      "translation": "接收用户向组织发布的技能和插件的 HTTPS 端点。设置后，用户可执行“发布到组织”。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 85109
+        }
+      ]
+    },
+    {
+      "i": 131,
+      "original": "Allow users to add plugin marketplaces. When off, marketplaces your organization did not provision are hidden and the app’s sessions do not load their plugins.",
+      "translation": "允许用户添加插件市场。关闭后，隐藏组织未提供的市场，应用会话也不会加载这些市场的插件。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 87014
+        }
+      ]
+    },
+    {
+      "i": 132,
+      "original": "https://otel.example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 91084
+        }
+      ]
+    },
+    {
+      "i": 133,
+      "original": "OpenTelemetry exporter protocol",
+      "translation": "OpenTelemetry 导出协议",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 91495
+        }
+      ]
+    },
+    {
+      "i": 134,
+      "original": "Transport protocol for the OpenTelemetry exporters.",
+      "translation": "OpenTelemetry 导出器的传输协议。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 91649
+        }
+      ]
+    },
+    {
+      "i": 135,
+      "original": "Chats and Cowork tasks on Windows or behind an HTTP proxy, and the app’s own events, export over OTLP/HTTP to this same endpoint. Choose grpc only if the collector also accepts OTLP/HTTP there.",
+      "translation": "Windows 上或使用 HTTP 代理的聊天和 Cowork 任务，以及应用自身事件，均通过 OTLP/HTTP 导出到同一端点。只有采集器也在该端点接受 OTLP/HTTP 时，才选择 grpc。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 92543
+        }
+      ]
+    },
+    {
+      "i": 136,
+      "original": "OpenTelemetry exporter headers",
+      "translation": "OpenTelemetry 导出请求头",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 93013
+        }
+      ]
+    },
+    {
+      "i": 137,
+      "original": "X-Scope-OrgID",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 93138
+        }
+      ]
+    },
+    {
+      "i": 138,
+      "original": "tenant-a",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 93202
+        }
+      ]
+    },
+    {
+      "i": 139,
+      "original": "Static collector headers — routing and tenant headers only. No credentials here; use Collector authentication or the headers helper script for tokens.",
+      "translation": "采集器静态请求头，仅用于路由和租户信息。不含凭据；令牌请使用“采集器认证”或请求头助手脚本。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 93337
+        }
+      ]
+    },
+    {
+      "i": 140,
+      "original": "Collector authentication",
+      "translation": "采集器认证",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 93829
+        }
+      ]
+    },
+    {
+      "i": 141,
+      "original": "None (static headers only)",
+      "translation": "无（仅静态请求头）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 93952
+        }
+      ]
+    },
+    {
+      "i": 142,
+      "original": "Reuse the inference credential",
+      "translation": "复用推理凭据",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 94051
+        }
+      ]
+    },
+    {
+      "i": 143,
+      "original": "inference-credential sends the user’s inference bearer token to the collector as Authorization: Bearer.",
+      "translation": "inference-credential 将用户的推理 Bearer 令牌作为 Authorization: Bearer 发送到采集器。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 94195
+        }
+      ]
+    },
+    {
+      "i": 144,
+      "original": "This sends the user’s inference token over plain http to another host. Use an https collector endpoint.",
+      "translation": "这会通过普通 http 将用户的推理令牌发送到另一台主机。请使用 https 采集器端点。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 95740
+        }
+      ]
+    },
+    {
+      "i": 145,
+      "original": "The configured inference credential is not sent as a bearer token, so telemetry will export without it. Use the headers helper script instead.",
+      "translation": "当前推理凭据不是以 Bearer 令牌发送，因此遥测导出不会携带该凭据。请改用请求头助手脚本。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 95948
+        }
+      ]
+    },
+    {
+      "i": 146,
+      "original": "OpenTelemetry headers helper script",
+      "translation": "OpenTelemetry 请求头助手脚本",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 96387
+        }
+      ]
+    },
+    {
+      "i": 147,
+      "original": "/usr/local/bin/otel-headers-helper",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 96526
+        }
+      ]
+    },
+    {
+      "i": 148,
+      "original": "Absolute path to an executable that prints a JSON object of collector headers. Merged over the static headers and Collector authentication; the helper wins.",
+      "translation": "输出采集器请求头 JSON 对象的程序绝对路径。与静态请求头及“采集器认证”合并，冲突时以助手输出为准。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 96638
+        }
+      ]
+    },
+    {
+      "i": 149,
+      "original": "OpenTelemetry resource attributes",
+      "translation": "OpenTelemetry 资源属性",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 98343
+        }
+      ]
+    },
+    {
+      "i": 150,
+      "original": "enduser.id",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 98471
+        }
+      ]
+    },
+    {
+      "i": 151,
+      "original": "alice@example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 98526
+        }
+      ]
+    },
+    {
+      "i": 152,
+      "original": "Add attribute",
+      "translation": "添加属性",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 98592
+        }
+      ]
+    },
+    {
+      "i": 153,
+      "original": "Export traces",
+      "translation": "导出跟踪",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 101130
+        }
+      ]
+    },
+    {
+      "i": 154,
+      "original": "Also export OpenTelemetry traces from Cowork tasks and Code sessions. Uses Claude Code’s session tracing.",
+      "translation": "同时导出 Cowork 任务和 Code 会话的 OpenTelemetry 跟踪，使用 Claude Code 的会话跟踪功能。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 101242
+        }
+      ]
+    },
+    {
+      "i": 155,
+      "original": "Telemetry attribute length limit",
+      "translation": "遥测属性长度限制",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 102512
+        }
+      ]
+    },
+    {
+      "i": 156,
+      "original": "Maximum characters per content-bearing span attribute sent to the collector (256–32000). Default 4000. Read by the Microsoft 365 add-in.",
+      "translation": "发送到采集器的含内容 span 属性的最大字符数（256–32000），默认 4000。由 Microsoft 365 加载项读取。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 102669
+        }
+      ]
+    },
+    {
+      "i": 157,
+      "original": "Typically supplied by your bootstrap server when the gateway offers dictation.",
+      "translation": "网关提供听写功能时，通常由引导服务器提供。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 103294
+        }
+      ]
+    },
+    {
+      "i": 158,
+      "original": "Token cap window",
+      "translation": "令牌上限统计窗口",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 104440
+        }
+      ]
+    },
+    {
+      "i": 159,
+      "original": "Tumbling window length for the token cap. Max 720 hours (30 days).",
+      "translation": "令牌上限的固定统计窗口长度，最大 720 小时（30 天）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 104638
+        }
+      ]
+    },
+    {
+      "i": 160,
+      "original": "This choice would leave no surface on. Turn on Code first.",
+      "translation": "此选择会关闭所有功能界面。请先开启 Code。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 105216
+        }
+      ]
+    },
+    {
+      "i": 161,
+      "original": "“Code” is a product name — keep it untranslated in Latin script; translate the rest naturally.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 105289
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 122437
+        }
+      ]
+    },
+    {
+      "i": 162,
+      "original": "“Cowork” is a product name — keep it untranslated in Latin script; translate the rest of the sentence naturally.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 105919
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 106501
+        }
+      ]
+    },
+    {
+      "i": 163,
+      "original": "Cowork",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 106183
+        }
+      ]
+    },
+    {
+      "i": 164,
+      "original": "[no-translate] Product name; must remain exactly “Cowork” in every locale.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 106204
+        }
+      ]
+    },
+    {
+      "i": 165,
+      "original": "Allow Code",
+      "translation": "允许 Code",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 108233
+        }
+      ]
+    },
+    {
+      "i": 166,
+      "original": "Code",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 108380
+        }
+      ]
+    },
+    {
+      "i": 167,
+      "original": "*.dev.example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 108930
+        }
+      ]
+    },
+    {
+      "i": 168,
+      "original": "/opt/openssh/bin/ssh",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 111269
+        }
+      ]
+    },
+    {
+      "i": 169,
+      "original": "Allow Chat",
+      "translation": "允许 Chat",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 120080
+        }
+      ]
+    },
+    {
+      "i": 170,
+      "original": "Desktop home",
+      "translation": "桌面主页",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 121373
+        }
+      ]
+    },
+    {
+      "i": 171,
+      "original": "Desktop home decides this while it is set.",
+      "translation": "设置“桌面主页”后，由其决定此选项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 121633
+        }
+      ]
+    },
+    {
+      "i": 172,
+      "original": "“Desktop home” is the title of another setting on this page; use the same translation as that title.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 121690
+        }
+      ]
+    },
+    {
+      "i": 173,
+      "original": "Simple: Chat with file analysis",
+      "translation": "基础：Chat 与文件分析",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 121933
+        }
+      ]
+    },
+    {
+      "i": 174,
+      "original": "“Chat” is a product name — keep it untranslated in Latin script; translate the rest naturally.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 121979
+        }
+      ]
+    },
+    {
+      "i": 175,
+      "original": "“Chat” is a product name and “VM” abbreviates virtual machine — keep “Chat” untranslated in Latin script; translate the rest naturally.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 122190
+        }
+      ]
+    },
+    {
+      "i": 176,
+      "original": "Off: Code only",
+      "translation": "关闭：仅 Code",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 122408
+        }
+      ]
+    },
+    {
+      "i": 177,
+      "original": "Unifies Chat and Cowork into one home. When set, it replaces Allow Chat, Advanced file analysis, and Allow Cowork. Leave unset to keep those.",
+      "translation": "将 Chat 和 Cowork 合并为一个主页。设置后替代“允许 Chat”“高级文件分析”和“允许 Cowork”。留空则保留这些选项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 122647
+        }
+      ]
+    },
+    {
+      "i": 178,
+      "original": "“Chat” and “Cowork” are product names — keep them untranslated in Latin script; translate the rest naturally.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 122803
+        }
+      ]
+    },
+    {
+      "i": 179,
+      "original": "Show extension directory",
+      "translation": "显示扩展目录",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 124797
+        }
+      ]
+    },
+    {
+      "i": 180,
+      "original": "The in-app catalogue of installable extensions. Hide to allow sideload only.",
+      "translation": "应用内可安装扩展的目录。隐藏后仅允许旁加载。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 125200
+        }
+      ]
+    },
+    {
+      "i": 181,
+      "original": "Security and compatibility fixes will not install automatically. Make sure IT has another distribution path.",
+      "translation": "安全和兼容性修复将不会自动安装。请确保 IT 部门有其他分发渠道。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 126529
+        }
+      ]
+    },
+    {
+      "i": 182,
+      "original": "Maximum version",
+      "translation": "最高版本",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 129100
+        }
+      ]
+    },
+    {
+      "i": 183,
+      "original": "Third-party deployments only. Auto-update stops at this version (X.Y.Z) and devices on newer versions cannot open Claude. Delays security fixes; leave unset.",
+      "translation": "仅适用于第三方部署。自动更新停止在此版本（X.Y.Z），已安装更新版本的设备无法打开 Claude。会延迟安全修复，建议留空。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 129225
+        }
+      ]
+    },
+    {
+      "i": 184,
+      "original": "Devices on a newer version cannot open Claude, and security fixes in newer releases do not install, until you raise or remove this cap.",
+      "translation": "在提高或取消此上限前，安装了更新版本的设备无法打开 Claude，新版本的安全修复也不会安装。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 131475
+        }
+      ]
+    },
+    {
+      "i": 185,
+      "original": "Use bootstrap config",
+      "translation": "使用引导配置",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 133226
+        }
+      ]
+    },
+    {
+      "i": 186,
+      "original": "Fetch and apply the URL above at launch. Turn off to keep the URL saved but skip the fetch.",
+      "translation": "启动时获取并应用上述 URL。关闭后保留已保存的 URL，但不获取配置。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 133344
+        }
+      ]
+    },
+    {
+      "i": 187,
+      "original": "Bootstrap config server",
+      "translation": "引导配置服务器",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 133901
+        }
+      ]
+    },
+    {
+      "i": 188,
+      "original": "https://config.example.com/claude-desktop",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 134002
+        }
+      ]
+    },
+    {
+      "i": 189,
+      "original": "Bootstrap OIDC parameters",
+      "translation": "引导 OIDC 参数",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 134431
+        }
+      ]
+    },
+    {
+      "i": 190,
+      "original": "Bootstrap sign-in (OIDC)",
+      "translation": "引导登录（OIDC）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 134580
+        }
+      ]
+    },
+    {
+      "i": 191,
+      "original": "When set, the bootstrap request sends a Bearer token from a browser sign-in (authorization-code-with-PKCE).",
+      "translation": "设置后，引导请求发送通过浏览器登录取得的 Bearer 令牌（authorization-code-with-PKCE）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 134691
+        }
+      ]
+    },
+    {
+      "i": 192,
+      "original": "Bootstrap request headers",
+      "translation": "引导请求头",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 135660
+        }
+      ]
+    },
+    {
+      "i": 193,
+      "original": "Authorization",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 135779
+        }
+      ]
+    },
+    {
+      "i": 194,
+      "original": "Basic …",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 135844
+        }
+      ]
+    },
+    {
+      "i": 195,
+      "original": "HTTP headers sent on every bootstrap config fetch. Use this instead of embedding user:pass@ in the URL.",
+      "translation": "每次获取引导配置时发送的 HTTP 请求头。请使用此项，避免在 URL 中嵌入 user:pass@。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 135982
+        }
+      ]
+    },
+    {
+      "i": 196,
+      "original": "Bootstrap headers helper script",
+      "translation": "引导请求头助手脚本",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 137117
+        }
+      ]
+    },
+    {
+      "i": 197,
+      "original": "/usr/local/bin/bootstrap-headers-helper",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 137243
+        }
+      ]
+    },
+    {
+      "i": 198,
+      "original": "Absolute path to an executable that prints a JSON object of bootstrap request headers. Merged over the static headers; the helper wins.",
+      "translation": "输出引导请求头 JSON 对象的程序绝对路径。与静态请求头合并，冲突时以助手输出为准。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 137364
+        }
+      ]
+    },
+    {
+      "i": 199,
+      "original": "Skip the per-user consent prompt for sign-in targets, inference endpoints, helper scripts, and connectors the bootstrap server delivers.",
+      "translation": "跳过引导服务器提供的登录目标、推理端点、助手脚本及连接器的逐用户同意提示。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 139049
+        }
+      ]
+    },
+    {
+      "i": 200,
+      "original": "Keep only your organization ID and restrictions on disk",
+      "translation": "仅在磁盘保存组织 ID 和限制",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 144144
+        }
+      ]
+    },
+    {
+      "i": 201,
+      "original": "Don’t keep your organization’s name or any permissive setting on disk between launches; only your organization ID and the restrictions you turn on are kept.",
+      "translation": "两次启动之间，不在磁盘保留组织名称或任何放宽权限的设置；仅保存组织 ID 和你开启的限制。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 144327
+        }
+      ]
+    },
+    {
+      "i": 202,
+      "original": "claude-opus-4",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 145989
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 160236
+        }
+      ]
+    },
+    {
+      "i": 203,
+      "original": "Model ID exactly as the provider expects it. The first entry is the default model.",
+      "translation": "提供商要求的精确模型 ID。第一项为默认模型。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 146062
+        }
+      ]
+    },
+    {
+      "i": 204,
+      "original": "Claude Opus 4",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 146319
+        }
+      ]
+    },
+    {
+      "i": 205,
+      "original": "Adds a 1M-context variant of this model to the picker. Set only if the deployment accepts 1M-token context for it.",
+      "translation": "在选择器中增加此模型的 1M 上下文变体。仅在部署支持该模型的 1M 令牌上下文时设置。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 146648
+        }
+      ]
+    },
+    {
+      "i": 206,
+      "original": "When several models share a tier alias, marks this one as the model the alias resolves to. Otherwise the first listed wins.",
+      "translation": "多个模型共用层级别名时，将此模型指定为别名解析的目标。否则以列表中第一项为准。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 147757
+        }
+      ]
+    },
+    {
+      "i": 207,
+      "original": "Highest effort level offered for this model; higher levels are hidden and never requested by Claude Desktop. An unrecognized value caps the model at low.",
+      "translation": "此模型可用的最高投入度。更高投入度会隐藏，Claude Desktop 也不会请求它们。无法识别的值会将模型投入度上限设为 low。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 148126
+        }
+      ]
+    },
+    {
+      "i": 208,
+      "original": "Minimum app version",
+      "translation": "最低应用版本",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 148393
+        }
+      ]
+    },
+    {
+      "i": 209,
+      "original": "Oldest Claude Desktop version that can use this model, as three numbers like 2.2553.0. Older apps that read this setting grey the model out and ask to update.",
+      "translation": "可使用此模型的最低 Claude Desktop 版本，以三个数字表示，如 2.2553.0。读取此设置的旧版应用会将模型置灰并提示更新。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 148592
+        }
+      ]
+    },
+    {
+      "i": 210,
+      "original": "the Bedrock control-plane",
+      "translation": "Bedrock 控制平面",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 150031
+        }
+      ]
+    },
+    {
+      "i": 211,
+      "original": "the provider",
+      "translation": "提供商",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 150124
+        }
+      ]
+    },
+    {
+      "i": 212,
+      "original": "Price multiplier",
+      "translation": "价格倍率",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 159330
+        }
+      ]
+    },
+    {
+      "i": 213,
+      "original": "Scales every estimated cost (0.85 = 85% of the price); between 0 and 1.",
+      "translation": "按比例调整所有预估费用（0.85 表示价格的 85%），范围为 0 到 1。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 159523
+        }
+      ]
+    },
+    {
+      "i": 214,
+      "original": "A model ID from the list above, or any other ID or alias your provider serves. A built-in Claude ID also covers its dated and provider forms.",
+      "translation": "上述列表中的模型 ID，或提供商支持的其他 ID 或别名。内置 Claude ID 同时涵盖带日期和提供商格式的变体。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 160309
+        }
+      ]
+    },
+    {
+      "i": 215,
+      "original": "USD per million input tokens.",
+      "translation": "每百万输入令牌的美元价格。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 160599
+        }
+      ]
+    },
+    {
+      "i": 216,
+      "original": "USD per million output tokens.",
+      "translation": "每百万输出令牌的美元价格。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 160765
+        }
+      ]
+    },
+    {
+      "i": 217,
+      "original": "USD per million prompt-cache read tokens.",
+      "translation": "每百万提示缓存读取令牌的美元价格。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 160939
+        }
+      ]
+    },
+    {
+      "i": 218,
+      "original": "USD per million prompt-cache write tokens (5-minute and 1-hour writes alike).",
+      "translation": "每百万提示缓存写入令牌的美元价格（5 分钟及 1 小时写入均使用此价格）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 161126
+        }
+      ]
+    },
+    {
+      "i": 219,
+      "original": "Model pricing",
+      "translation": "模型价格",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 161438
+        }
+      ]
+    },
+    {
+      "i": 220,
+      "original": "Add price",
+      "translation": "添加价格",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 161561
+        }
+      ]
+    },
+    {
+      "i": 221,
+      "original": "Per-model rates replacing Anthropic list price in the Usage page’s estimate.",
+      "translation": "在“用量”页面的费用估算中，以各模型费率替代 Anthropic 官方牌价。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 161630
+        }
+      ]
+    },
+    {
+      "i": 222,
+      "original": "Model catalog mirror",
+      "translation": "模型目录镜像",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 165371
+        }
+      ]
+    },
+    {
+      "i": 223,
+      "original": "https://mirror.example.com/model-catalog/v1/catalog.json",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 165483
+        }
+      ]
+    },
+    {
+      "i": 224,
+      "original": "Connector favicons, artifact-preview and MCP Apps iframes, and the Linux spellcheck dictionary. Connector widgets fall back to text; spellcheck is off on Linux.",
+      "translation": "连接器图标、Artifact 预览及 MCP Apps iframe，以及 Linux 拼写检查词典。连接器小组件会回退为文本，Linux 上的拼写检查将关闭。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 172856
+        }
+      ]
+    },
+    {
+      "i": 225,
+      "original": "This disables connector icons, hosted artifact previews and MCP Apps widgets, and also turns spellcheck off on Linux. Artifacts still render locally, without CDN libraries; connectors that return MCP Apps show the text tool result instead of the widget.",
+      "translation": "关闭连接器图标、托管的 Artifact 预览和 MCP Apps 小组件，同时关闭 Linux 拼写检查。Artifact 仍在本地渲染，但不使用 CDN 库；返回 MCP Apps 的连接器会显示文本工具结果，替代小组件。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 174123
+        }
+      ]
+    },
+    {
+      "i": 226,
+      "original": "Report usage metrics to your Claude.ai organization",
+      "translation": "向你的 Claude.ai 组织报告用量指标",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 174702
+        }
+      ]
+    },
+    {
+      "i": 227,
+      "original": "Set by the control plane from the organization’s Claude Code analytics setting; not editable here. Reports per-user token, cost and session counts (no content).",
+      "translation": "由控制平面根据组织的 Claude Code 分析设置提供，无法在此编辑。报告每位用户的令牌数、费用和会话数，不包含内容。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 174851
+        }
+      ]
+    },
+    {
+      "i": 228,
+      "original": "Endpoint is plain HTTP; auth credentials travel in cleartext.",
+      "translation": "端点使用普通 HTTP，认证凭据会以明文传输。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 176919
+        }
+      ]
+    },
+    {
+      "i": 229,
+      "original": "Shared bearer token: every org member authenticates as the same identity.",
+      "translation": "共享 Bearer 令牌：所有组织成员均以同一身份认证。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 177234
+        }
+      ]
+    },
+    {
+      "i": 230,
+      "original": "Start the pattern with a scheme such as https://, or *:// for any scheme: Claude Code compares a pattern with the server’s full address.",
+      "translation": "模式须以 https:// 等协议开头，任意协议使用 *://：Claude Code 会将模式与服务器完整地址比较。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 177527
+        }
+      ]
+    },
+    {
+      "i": 231,
+      "original": "Server URL pattern",
+      "translation": "服务器 URL 模式",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 177769
+        }
+      ]
+    },
+    {
+      "i": 232,
+      "original": "Enable Claude in Chrome",
+      "translation": "启用 Claude in Chrome",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 185511
+        }
+      ]
+    },
+    {
+      "i": 233,
+      "original": "Set by the control plane from the organization’s Claude in Chrome admin setting; not editable here. Lets sessions drive the user’s browser via the extension.",
+      "translation": "由控制平面根据组织的 Claude in Chrome 管理设置提供，无法在此编辑。允许会话通过扩展操作用户的浏览器。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 185633
+        }
+      ]
+    },
+    {
+      "i": 234,
+      "original": "Enable password managers in Claude in Chrome",
+      "translation": "在 Claude in Chrome 中启用密码管理器",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 188193
+        }
+      ]
+    },
+    {
+      "i": 235,
+      "original": "Set by the control plane from the organization’s Password managers setting under Claude in Chrome; not editable here. Lets a password manager fill sign-ins.",
+      "translation": "由控制平面根据 Claude in Chrome 下的组织密码管理器设置提供，无法在此编辑。允许密码管理器填写登录信息。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 188338
+        }
+      ]
+    },
+    {
+      "i": 236,
+      "original": "URL pattern a plugin’s remote server must match, with * wildcards.",
+      "translation": "插件远程服务器必须匹配的 URL 模式，支持 * 通配符。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 190516
+        }
+      ]
+    },
+    {
+      "i": 237,
+      "original": "URL pattern of the remote servers to block, with * wildcards.",
+      "translation": "要阻止的远程服务器的 URL 模式，支持 * 通配符。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 193069
+        }
+      ]
+    },
+    {
+      "i": 238,
+      "original": "Blocked plugin MCP servers",
+      "translation": "禁止连接的插件 MCP 服务器",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 193330
+        }
+      ]
+    },
+    {
+      "i": 239,
+      "original": "Remote servers plugins may not connect, even if the allowed list admits them; in Code sessions, configuration-file servers too. Unset or empty blocks none.",
+      "translation": "插件不可连接的远程服务器，即使允许列表包含它们也不例外；在 Code 会话中也适用于配置文件中的服务器。留空或未设置则不阻止任何服务器。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 193512
+        }
+      ]
+    },
+    {
+      "i": 240,
+      "original": "Path",
+      "translation": "路径",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 197654
+        }
+      ]
+    },
+    {
+      "i": 241,
+      "original": "~/Documents/work",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 197774
+        }
+      ]
+    },
+    {
+      "i": 242,
+      "original": "Absolute folder path. May start with ~ or one of the listed %VAR% tokens, expanded per user. Subfolders are included.",
+      "translation": "文件夹的绝对路径，可使用 ~ 或列出的 %VAR% 标记开头，按用户展开。包含子文件夹。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 197850
+        }
+      ]
+    },
+    {
+      "i": 243,
+      "original": "WebSearch or Bash(curl *)",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 206023
+        }
+      ]
+    },
+    {
+      "i": 244,
+      "original": "WebFetch or Bash(curl *)",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 212016
+        }
+      ]
+    },
+    {
+      "i": 245,
+      "original": "Approval policy per built-in tool or argument-scoped rule such as Bash(curl *). “ask” requires user approval before each matching call; “allow” is the default.",
+      "translation": "各内置工具或参数限定规则（如 Bash(curl *)）的批准策略。“ask”要求每次匹配调用前由用户批准；“allow”为默认值。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 212158
+        }
+      ]
+    },
+    {
+      "i": 246,
+      "original": "Offer Auto mode in the Code permission selector (on unless set to false); set to true to also offer it in Cowork. Claude decides which actions need approval.",
+      "translation": "在 Code 权限选择器中提供自动模式（除非设为 false，否则默认开启）；设为 true 时，Cowork 也会提供该模式。Claude 决定哪些操作需要批准。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 214374
+        }
+      ]
+    },
+    {
+      "i": 247,
+      "original": "WebFetch domain check",
+      "translation": "WebFetch 域名检查",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 219978
+        }
+      ]
+    },
+    {
+      "i": 248,
+      "original": "Use Claude Code’s corporate launcher",
+      "translation": "使用 Claude Code 企业启动器",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 227753
+        }
+      ]
+    },
+    {
+      "i": 249,
+      "original": "Start Claude Code through the launcher in Claude Code’s managed settings (processWrapper) — this device’s, and an SSH host’s for SSH sessions. Off by default.",
+      "translation": "通过 Claude Code 托管设置中的启动器（processWrapper）启动 Claude Code：本地会话使用此设备的启动器，SSH 会话使用 SSH 主机的启动器。默认关闭。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 228012
+        }
+      ]
+    },
+    {
+      "i": 250,
+      "original": "Move app data off network shares",
+      "translation": "将应用数据移出网络共享",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 230444
+        }
+      ]
+    },
+    {
+      "i": 251,
+      "original": "Store app data in local AppData on Windows devices where Roaming AppData is redirected to a network share, which Cowork tasks cannot run from.",
+      "translation": "在 Windows 设备的 Roaming AppData 被重定向到网络共享时，将应用数据存入本地 AppData，因为 Cowork 任务无法从网络共享运行。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 230573
+        }
+      ]
+    },
+    {
+      "i": 252,
+      "original": "Proxy server",
+      "translation": "代理服务器",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 235212
+        }
+      ]
+    },
+    {
+      "i": 253,
+      "original": "http://proxy.example.com:8080",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 235314
+        }
+      ]
+    },
+    {
+      "i": 254,
+      "original": "Proxy auto-config file",
+      "translation": "代理自动配置文件",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 237901
+        }
+      ]
+    },
+    {
+      "i": 255,
+      "original": "http://wpad.example.com/proxy.pac",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 238013
+        }
+      ]
+    },
+    {
+      "i": 256,
+      "original": "EDR Integration package path",
+      "translation": "EDR 集成包路径",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 239919
+        }
+      ]
+    },
+    {
+      "i": 257,
+      "original": "Path on the user’s computer to the signed package an endpoint security (EDR) vendor supplies for the Cowork workspace VM. Read from device management only.",
+      "translation": "终端安全（EDR）厂商为 Cowork 工作区虚拟机提供的签名包在用户电脑上的路径。仅从设备管理读取。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 240051
+        }
+      ]
+    },
+    {
+      "i": 258,
+      "original": "EDR Integration vendor ID",
+      "translation": "EDR 集成厂商 ID",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 242529
+        }
+      ]
+    },
+    {
+      "i": 259,
+      "original": "The ID of the vendor that signed the package coworkEDRIntegration points to. Required with that key, or nothing is installed. Read from device management only.",
+      "translation": "对 coworkEDRIntegration 指定的包进行签名的厂商 ID。须与该键同时提供，否则不安装任何内容。仅从设备管理读取。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 242658
+        }
+      ]
+    },
+    {
+      "i": 260,
+      "original": "Secure VM features",
+      "translation": "安全虚拟机功能",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 246578
+        }
+      ]
+    },
+    {
+      "i": 261,
+      "original": "Runs tools inside an isolated VM instead of the host. Stronger isolation; slower file access and no host-process tools.",
+      "translation": "在隔离虚拟机内而非宿主机运行工具。隔离更强，但文件访问较慢，且不支持宿主进程工具。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 247601
+        }
+      ]
+    },
+    {
+      "i": 262,
+      "original": "The default host-native mode starts faster and works behind restricted networks. Shell commands run inside the VM; file tools run on the host with path-based access control. Enable this only if your security review requires the agent loop itself to run in the VM.",
+      "translation": "默认的宿主原生模式启动更快，也可在受限网络后运行。Shell 命令在虚拟机内执行，文件工具在宿主机按路径控制访问。仅在安全审查要求智能体循环本身也在虚拟机内运行时开启此项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 247788
+        }
+      ]
+    },
+    {
+      "i": 263,
+      "original": "Required organization",
+      "translation": "指定组织",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 254291
+        }
+      ]
+    },
+    {
+      "i": 264,
+      "original": "Restricts login to specific org UUID(s). Single UUID string or JSON array.",
+      "translation": "将登录限制为指定的组织 UUID。可填写单个 UUID 字符串或 JSON 数组。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 254394
+        }
+      ]
+    },
+    {
+      "i": 265,
+      "original": "Single account only",
+      "translation": "仅允许一个账户",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 254789
+        }
+      ]
+    },
+    {
+      "i": 266,
+      "original": "Keep Claude Desktop signed in to one account at a time.",
+      "translation": "Claude Desktop 一次只能登录一个账户。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 254901
+        }
+      ]
+    },
+    {
+      "i": 267,
+      "original": "example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 255372
+        }
+      ]
+    },
+    {
+      "i": 268,
+      "original": "Import earlier third-party sessions into this organization",
+      "translation": "将此前的第三方会话导入此组织",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 255613
+        }
+      ]
+    },
+    {
+      "i": 269,
+      "original": "After sign-in to this organization, copies this computer’s earlier third-party sessions into the user’s local first-party profile, once per account and org.",
+      "translation": "登录此组织后，将此电脑此前的第三方会话复制到用户的本地官方账户配置中。每个账户与组织组合仅执行一次。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 255753
+        }
+      ]
+    },
+    {
+      "i": 270,
+      "original": "“disabled” forces browser-based Microsoft 365 sign-in; “required” fails sign-in when the OS broker is unavailable, so the refresh token stays broker-held.",
+      "translation": "“disabled”强制通过浏览器登录 Microsoft 365；“required”在操作系统认证代理不可用时使登录失败，确保刷新令牌始终由代理持有。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 258251
+        }
+      ]
+    },
+    {
+      "i": 271,
+      "original": "Allow optional client-certificate fallback",
+      "translation": "允许可选的客户端证书回退",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 259804
+        }
+      ]
+    },
+    {
+      "i": 272,
+      "original": "Turns the banner on. When false or unset, the other banner fields are ignored.",
+      "translation": "启用横幅。设为 false 或留空时，其他横幅字段均被忽略。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 262997
+        }
+      ]
+    },
+    {
+      "i": 273,
+      "original": "Single line, truncated on overflow. Maximum 200 characters.",
+      "translation": "单行显示，超出后截断。最多 200 个字符。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 263286
+        }
+      ]
+    },
+    {
+      "i": 274,
+      "original": "Default hex color value — DO NOT TRANSLATE",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 263591
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 263994
+        }
+      ]
+    },
+    {
+      "i": 275,
+      "original": "Six-digit hex (#RRGGBB). Applied exactly as configured; not theme-adapted.",
+      "translation": "六位十六进制颜色（#RRGGBB），按配置原样应用，不随主题调整。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 263698
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 264101
+        }
+      ]
+    },
+    {
+      "i": 276,
+      "original": "Link URL",
+      "translation": "链接 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 264285
+        }
+      ]
+    },
+    {
+      "i": 277,
+      "original": "https://intranet.example.com/usage-policy",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 264344
+        }
+      ]
+    },
+    {
+      "i": 278,
+      "original": "Optional HTTPS URL. The banner text becomes a link when set.",
+      "translation": "可选的 HTTPS URL。设置后，横幅文字会变成链接。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 264445
+        }
+      ]
+    },
+    {
+      "i": 279,
+      "original": "Endpoint that returns a signed-in user’s Claude.ai conversation history. Only needed for importing directly from Claude.ai.",
+      "translation": "返回已登录用户的 Claude.ai 对话历史的端点。仅直接从 Claude.ai 导入时需要。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 265112
+        }
+      ]
+    },
+    {
+      "i": 280,
+      "original": "OAuth server users sign in to before importing directly from Claude.ai. Set with the export URL and client ID, or leave all three empty.",
+      "translation": "用户直接从 Claude.ai 导入前登录的 OAuth 服务器。请与导出 URL 及客户端 ID 一起设置，或三项均留空。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 265495
+        }
+      ]
+    },
+    {
+      "i": 281,
+      "original": "OAuth client ID this app presents to the OAuth issuer. Set with the export URL and OAuth issuer, or leave all three empty.",
+      "translation": "此应用提交给 OAuth 签发方的客户端 ID。请与导出 URL 及 OAuth 签发方一起设置，或三项均留空。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 265874
+        }
+      ]
+    },
+    {
+      "i": 282,
+      "original": "Prompt to import on a new chat or task. Off if unset. `show`: always; needs `enabled` or a sign-in import. `detect`: if `enabled` finds earlier Claude sessions.",
+      "translation": "在新聊天或任务中提示导入。留空则关闭。`show`：始终提示，需要 `enabled` 或登录时导入。`detect`：仅在 `enabled` 找到此前 Claude 会话时提示。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 268801
+        }
+      ]
+    },
+    {
+      "i": 283,
+      "original": "Import prompt skip limit",
+      "translation": "导入提示跳过次数上限",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 269097
+        }
+      ]
+    },
+    {
+      "i": 284,
+      "original": "Skips allowed before the import prompt stays hidden: 1 to 10, 1 if unset. It returns 3 days after each skip except the last. An import hides it for good.",
+      "translation": "导入提示永久隐藏前可跳过的次数：1 到 10，留空为 1。除最后一次外，每次跳过后 3 天会再次提示。完成导入后永久隐藏。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 269255
+        }
+      ]
+    },
+    {
+      "i": 285,
+      "original": "Microsoft Entra (Microsoft 365 add-in)",
+      "translation": "Microsoft Entra（Microsoft 365 加载项）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 271137
+        }
+      ]
+    },
+    {
+      "i": 286,
+      "original": "Entra application (client) ID",
+      "translation": "Entra 应用（客户端）ID",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 271412
+        }
+      ]
+    },
+    {
+      "i": 287,
+      "original": "Your organization’s Entra app registration for the Microsoft 365 add-in. Leave unset to use the add-in’s published application.",
+      "translation": "组织为 Microsoft 365 加载项注册的 Entra 应用。留空则使用加载项已发布的应用。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 271627
+        }
+      ]
+    },
+    {
+      "i": 288,
+      "original": "Microsoft cloud the add-in signs in against. Any cloud other than global requires your own app registration (client ID).",
+      "translation": "加载项登录的 Microsoft 云环境。除 global 外的云环境均需要自行注册应用（客户端 ID）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 272097
+        }
+      ]
+    },
+    {
+      "i": 289,
+      "original": "This cloud has no published add-in application: set the client ID of your own registration.",
+      "translation": "此云环境没有已发布的加载项应用：请设置自行注册应用的客户端 ID。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 272327
+        }
+      ]
+    },
+    {
+      "i": 290,
+      "original": "Custom scopes are only requested through your own app registration: set the client ID.",
+      "translation": "只有通过自行注册的应用才会请求自定义作用域：请设置客户端 ID。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 272794
+        }
+      ]
+    },
+    {
+      "i": 291,
+      "original": "Delegated scope",
+      "translation": "委托作用域",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 272931
+        }
+      ]
+    },
+    {
+      "i": 292,
+      "original": "api://llm-gateway.example.com/.default",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 273036
+        }
+      ]
+    },
+    {
+      "i": 293,
+      "original": "Delegated scopes the add-in requests (space- or comma-separated, all for one resource), e.g. your gateway’s api://…/.default. Requires your own client ID.",
+      "translation": "加载项请求的委托作用域，以空格或逗号分隔，均须属于同一资源，如网关的 api://…/.default。需要自己的客户端 ID。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 273134
+        }
+      ]
+    },
+    {
+      "i": 294,
+      "original": "Microsoft 365",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 273455
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 55492
+        }
+      ]
+    },
+    {
+      "i": 295,
+      "original": "Skill authoring",
+      "translation": "技能编写",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 273530
+        }
+      ]
+    },
+    {
+      "i": 296,
+      "original": "Response feedback",
+      "translation": "回复反馈",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 273591
+        }
+      ]
+    },
+    {
+      "i": 297,
+      "original": "The add-in itself",
+      "translation": "加载项本身",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 273662
+        }
+      ]
+    },
+    {
+      "i": 298,
+      "original": "File upload",
+      "translation": "文件上传",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 273732
+        }
+      ]
+    },
+    {
+      "i": 299,
+      "original": "Identifier type",
+      "translation": "标识符类型",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274039
+        }
+      ]
+    },
+    {
+      "i": 300,
+      "original": "Label GUID",
+      "translation": "标签 GUID",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274122
+        }
+      ]
+    },
+    {
+      "i": 301,
+      "original": "Label name",
+      "translation": "标签名称",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274186
+        }
+      ]
+    },
+    {
+      "i": 302,
+      "original": "Label GUIDs keep matching when a label is renamed. Label names must match exactly, including case.",
+      "translation": "标签重命名后，标签 GUID 仍可匹配。标签名称必须完全一致，包括大小写。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274258
+        }
+      ]
+    },
+    {
+      "i": 303,
+      "original": "Equals",
+      "translation": "等于",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274457
+        }
+      ]
+    },
+    {
+      "i": 304,
+      "original": "Matches a file that has this label.",
+      "translation": "匹配带有此标签的文件。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274524
+        }
+      ]
+    },
+    {
+      "i": 305,
+      "original": "Starts with",
+      "translation": "开头为",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274671
+        }
+      ]
+    },
+    {
+      "i": 306,
+      "original": "Matches every label whose name starts with this text, for example all sublabels of one parent label.",
+      "translation": "匹配名称以此文本开头的所有标签，例如某个父标签的全部子标签。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274743
+        }
+      ]
+    },
+    {
+      "i": 307,
+      "original": "Ends with",
+      "translation": "结尾为",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 274951
+        }
+      ]
+    },
+    {
+      "i": 308,
+      "original": "Matches every label whose name ends with this text.",
+      "translation": "匹配名称以此文本结尾的所有标签。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 275021
+        }
+      ]
+    },
+    {
+      "i": 309,
+      "original": "Any label",
+      "translation": "任意标签",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 275205
+        }
+      ]
+    },
+    {
+      "i": 310,
+      "original": "No label",
+      "translation": "无标签",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 275259
+        }
+      ]
+    },
+    {
+      "i": 311,
+      "original": "Exists",
+      "translation": "存在",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 275313
+        }
+      ]
+    },
+    {
+      "i": 312,
+      "original": "Any label matches every labeled file. No label matches unlabeled files and, for uploads, files that can’t have a label, such as images.",
+      "translation": "“任意标签”匹配所有已标记文件。“无标签”匹配未标记文件；上传时也匹配无法标记的文件，如图像。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 275380
+        }
+      ]
+    },
+    {
+      "i": 313,
+      "original": "Applies to",
+      "translation": "适用对象",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 276113
+        }
+      ]
+    },
+    {
+      "i": 314,
+      "original": "Open file",
+      "translation": "已打开文件",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 276186
+        }
+      ]
+    },
+    {
+      "i": 315,
+      "original": "Open file checks the document the add-in runs in. Uploaded file checks each file the user attaches. A statement checks only the type it names.",
+      "translation": "“已打开文件”检查加载项所在的文档。“已上传文件”检查用户附加的每个文件。每条策略仅检查其指定的文件类型。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 276323
+        }
+      ]
+    },
+    {
+      "i": 316,
+      "original": "Identifiers",
+      "translation": "标识符",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 276541
+        }
+      ]
+    },
+    {
+      "i": 317,
+      "original": "The statement applies to a file when any of these match its label.",
+      "translation": "文件标签匹配其中任意一项时，此策略适用于该文件。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 276613
+        }
+      ]
+    },
+    {
+      "i": 318,
+      "original": "A note for administrators. It has no effect.",
+      "translation": "供管理员参考的备注，不影响行为。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 276831
+        }
+      ]
+    },
+    {
+      "i": 319,
+      "original": "Effect",
+      "translation": "效果",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 276966
+        }
+      ]
+    },
+    {
+      "i": 320,
+      "original": "Deny turns the actions off for matching files. Allow turns them off for every other file of that type. Deny wins when both match.",
+      "translation": "“拒绝”会关闭匹配文件的操作。“允许”会关闭该类型其他文件的操作。同时匹配时，以“拒绝”为准。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 277160
+        }
+      ]
+    },
+    {
+      "i": 321,
+      "original": "The features this statement turns off. “The add-in itself” covers the whole add-in.",
+      "translation": "此策略关闭的功能。“加载项本身”涵盖整个加载项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 277461
+        }
+      ]
+    },
+    {
+      "i": 322,
+      "original": "Resource",
+      "translation": "资源",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 277628
+        }
+      ]
+    },
+    {
+      "i": 323,
+      "original": "The files this statement checks. A deny with no resource turns its actions off for every file.",
+      "translation": "此策略检查的文件。未指定资源的拒绝策略会对所有文件关闭对应操作。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 277697
+        }
+      ]
+    },
+    {
+      "i": 324,
+      "original": "Disabled Office applications",
+      "translation": "禁用的 Office 应用",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 278245
+        }
+      ]
+    },
+    {
+      "i": 325,
+      "original": "Excel",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 278360
+        }
+      ]
+    },
+    {
+      "i": 326,
+      "original": "Word",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 278463
+        }
+      ]
+    },
+    {
+      "i": 327,
+      "original": "Outlook",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 278511
+        }
+      ]
+    },
+    {
+      "i": 328,
+      "original": "Host applications where the Claude add-in for Microsoft 365 is turned off.",
+      "translation": "停用 Claude Microsoft 365 加载项的宿主应用。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 278579
+        }
+      ]
+    },
+    {
+      "i": 329,
+      "original": "Disabled add-in features",
+      "translation": "禁用的加载项功能",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 278903
+        }
+      ]
+    },
+    {
+      "i": 330,
+      "original": "Add-in features turned off for everyone, on every file. “The add-in itself” turns the whole add-in off.",
+      "translation": "对所有用户、所有文件关闭的加载项功能。“加载项本身”会关闭整个加载项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 279031
+        }
+      ]
+    },
+    {
+      "i": 331,
+      "original": "Document access policies",
+      "translation": "文档访问策略",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 279403
+        }
+      ]
+    },
+    {
+      "i": 332,
+      "original": "Add statement",
+      "translation": "添加策略",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 279503
+        }
+      ]
+    },
+    {
+      "i": 333,
+      "original": "Allow or deny add-in features by the Microsoft Purview sensitivity label of the open or attached file.",
+      "translation": "根据已打开或附加文件的 Microsoft Purview 敏感度标签，允许或拒绝加载项功能。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 279576
+        }
+      ]
+    },
+    {
+      "i": 334,
+      "original": "Built-in browser (site safety check)",
+      "translation": "内置浏览器（站点安全检查）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 281341
+        }
+      ]
+    },
+    {
+      "i": 335,
+      "original": "Default site policy in the built-in browser",
+      "translation": "内置浏览器默认站点策略",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 283875
+        }
+      ]
+    },
+    {
+      "i": 336,
+      "original": "Allow all sites except blocked sites",
+      "translation": "允许所有站点，已阻止站点除外",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 284087
+        }
+      ]
+    },
+    {
+      "i": 337,
+      "original": "Block all sites except allowed sites",
+      "translation": "阻止所有站点，已允许站点除外",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 284168
+        }
+      ]
+    },
+    {
+      "i": 338,
+      "original": "Whether Claude may open sites in the built-in browser by default; the allowed or blocked list is the exception. Mirrors the Claude in Chrome site policy.",
+      "translation": "Claude 默认能否在内置浏览器中打开站点；允许或阻止列表作为例外。与 Claude in Chrome 站点策略对应。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 284304
+        }
+      ]
+    },
+    {
+      "i": 339,
+      "original": "Allowed sites in the built-in browser",
+      "translation": "内置浏览器允许的站点",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 286296
+        }
+      ]
+    },
+    {
+      "i": 340,
+      "original": "Sites Claude may open, read, and act on in the built-in browser when the default site policy is block. Users can still view other sites.",
+      "translation": "默认策略为阻止时，Claude 可在内置浏览器中打开、读取和操作的站点。用户仍可查看其他站点。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 286563
+        }
+      ]
+    },
+    {
+      "i": 341,
+      "original": "Blocked sites in the built-in browser",
+      "translation": "内置浏览器阻止的站点",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 288598
+        }
+      ]
+    },
+    {
+      "i": 342,
+      "original": "Sites Claude may not open, read, or act on in the built-in browser when the default site policy is allow. Users can still view them.",
+      "translation": "默认策略为允许时，Claude 不可在内置浏览器中打开、读取和操作的站点。用户仍可查看这些站点。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 288868
+        }
+      ]
+    },
+    {
+      "i": 343,
+      "original": "Claude API",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 295030
+        }
+      ]
+    },
+    {
+      "i": 344,
+      "original": "Selects the inference backend. Setting this key activates third-party mode.",
+      "translation": "选择推理后端。设置此键即启用第三方模式。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 295154
+        }
+      ]
+    },
+    {
+      "i": 345,
+      "original": "Title of the Claude Desktop deployment settings page that holds what the desktop app may do on the device (tools, built-in browser, coding, files): an entry under Desktop 3P in the organization admin settings navigation, a section of the Desktop setup window, and a heading in the configuration reference. Noun. Use the same word as the organization-wide Capabilities settings page.",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 334200
+        }
+      ]
+    },
+    {
+      "i": 346,
+      "original": "Hosts your network firewall must allow, derived from your current settings. This list is read-only and updates as you make changes. Traffic is HTTPS on port 443 unless an entry shows a port or starts with http://.",
+      "translation": "网络防火墙必须放行的主机，根据当前设置生成。此列表只读，随设置变化自动更新。除非条目指定端口或以 http:// 开头，否则均使用 HTTPS 443 端口。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 335292
+        }
+      ]
+    },
+    {
+      "i": 347,
+      "original": "This configuration is fetched from a bootstrap URL at launch. Fields it provides are locked below.",
+      "translation": "启动时从引导 URL 获取此配置。其提供的字段在下方锁定。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 335793
+        }
+      ]
+    },
+    {
+      "i": 348,
+      "original": "Blank",
+      "translation": "空白",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 349473
+        }
+      ]
+    },
+    {
+      "i": 349,
+      "original": "text-xs font-medium text-primary",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 350575
+        }
+      ]
+    },
+    {
+      "i": 350,
+      "original": "text-[11px] leading-normal text-muted",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 350622
+        }
+      ]
+    },
+    {
+      "i": 351,
+      "original": "text-body text-primary",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "label",
+          "start": 351221
+        }
+      ]
+    },
+    {
+      "i": 352,
+      "original": "text-footnote text-muted",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "description",
+          "start": 351258
+        }
+      ]
+    },
+    {
+      "i": 353,
+      "original": "Scope (optional)",
+      "translation": "作用域（可选）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 356071
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 357800
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 358753
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 360138
+        }
+      ]
+    },
+    {
+      "i": 354,
+      "original": "Whole tool only",
+      "translation": "仅整个工具",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 356282
+        }
+      ]
+    },
+    {
+      "i": 355,
+      "original": "Path patterns go on {canonical}, which covers {tool}.",
+      "translation": "路径模式应设置在 {canonical} 上，该规则涵盖 {tool}。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 356436
+        }
+      ]
+    },
+    {
+      "i": 356,
+      "original": "Allow specific hosts with the egress host settings.",
+      "translation": "通过出站主机设置允许指定主机。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 356567
+        }
+      ]
+    },
+    {
+      "i": 357,
+      "original": "Replaces {count, plural, one {# scoped {tool} rule} other {# scoped {tool} rules}}",
+      "translation": "替换{count, plural, one { # 条 {tool} 限定规则} other { # 条 {tool} 限定规则}}",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 358224
+        }
+      ]
+    },
+    {
+      "i": 358,
+      "original": "Policy",
+      "translation": "策略",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 358853
+        }
+      ]
+    },
+    {
+      "i": 359,
+      "original": "Tenant",
+      "translation": "租户",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 367229
+        }
+      ]
+    },
+    {
+      "i": 360,
+      "original": "Found",
+      "translation": "已发现",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 367850
+        }
+      ]
+    },
+    {
+      "i": 361,
+      "original": "Testing…",
+      "translation": "正在测试…",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 369023
+        },
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 375689
+        }
+      ]
+    },
+    {
+      "i": 362,
+      "original": "Connected · {latency}ms",
+      "translation": "已连接 · {latency}ms",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 369253
+        }
+      ]
+    },
+    {
+      "i": 363,
+      "original": "Not tested",
+      "translation": "未测试",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 369562
+        }
+      ]
+    },
+    {
+      "i": 364,
+      "original": "Connected successfully · {latency}ms",
+      "translation": "连接成功 · {latency}ms",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 369966
+        }
+      ]
+    },
+    {
+      "i": 365,
+      "original": "Server",
+      "translation": "服务器",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 370950
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 51869
+        }
+      ]
+    },
+    {
+      "i": 366,
+      "original": "Exposed tools",
+      "translation": "可用工具",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 372111
+        }
+      ]
+    },
+    {
+      "i": 367,
+      "original": "Server reachable but rejected the unauthenticated handshake. Choose an OAuth mode above to sign in, or add an Authorization header.",
+      "translation": "服务器可访问，但拒绝了未经认证的握手。请在上方选择 OAuth 模式登录，或添加 Authorization 请求头。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 372417
+        }
+      ]
+    },
+    {
+      "i": 368,
+      "original": "Your tenant may not be allowlisted yet — send the Client ID and Tenant ID above to your Anthropic representative (2-3 business days to activate).",
+      "translation": "你的租户可能尚未加入允许列表，请将上方客户端 ID 和租户 ID 提供给 Anthropic 联系人（启用需 2–3 个工作日）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 372776
+        }
+      ]
+    },
+    {
+      "i": 369,
+      "original": "Test failed",
+      "translation": "测试失败",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "title",
+          "start": 374062
+        }
+      ]
+    },
+    {
+      "i": 370,
+      "original": "Sign-in failed",
+      "translation": "登录失败",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "title",
+          "start": 374349
+        }
+      ]
+    },
+    {
+      "i": 371,
+      "original": "Forget sign-in",
+      "translation": "清除登录状态",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 376098
+        }
+      ]
+    },
+    {
+      "i": 372,
+      "original": "Test again",
+      "translation": "重新测试",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 376530
+        }
+      ]
+    },
+    {
+      "i": 373,
+      "original": "Test this connection",
+      "translation": "测试此连接",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 376639
+        }
+      ]
+    },
+    {
+      "i": 374,
+      "original": "{field} swatch",
+      "translation": "{field} 色样",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 376897
+        }
+      ]
+    },
+    {
+      "i": 375,
+      "original": "unknown",
+      "translation": "未知",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 378403
+        }
+      ]
+    },
+    {
+      "i": 376,
+      "original": "Remove entry",
+      "translation": "移除条目",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 381476
+        }
+      ]
+    },
+    {
+      "i": 377,
+      "original": "Duplicate key — only the last value is kept.",
+      "translation": "键重复，仅保留最后一个值。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 381853
+        }
+      ]
+    },
+    {
+      "i": 378,
+      "original": "Item {n}",
+      "translation": "第 {n} 项",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 384378
+        }
+      ]
+    },
+    {
+      "i": 379,
+      "original": "Value does not match the required format.",
+      "translation": "值不符合所需格式。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 387238
+        }
+      ]
+    },
+    {
+      "i": 380,
+      "original": "{label} configuration",
+      "translation": "{label} 配置",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 388614
+        }
+      ]
+    },
+    {
+      "i": 381,
+      "original": "None allowed.",
+      "translation": "不允许任何项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 396559
+        }
+      ]
+    },
+    {
+      "i": 382,
+      "original": "None set.",
+      "translation": "尚未设置。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 396683
+        }
+      ]
+    },
+    {
+      "i": 383,
+      "original": "{tool} ({permission})",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 403480
+        }
+      ]
+    },
+    {
+      "i": 384,
+      "original": "Organization rules: {rules}",
+      "translation": "组织规则：{rules}",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 403600
+        }
+      ]
+    },
+    {
+      "i": 385,
+      "original": "AWS — Messages API",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "ce459c687-B8Wjdf-0.js",
+          "field": "defaultMessage",
+          "start": 404858
+        }
+      ]
+    },
+    {
+      "i": 386,
+      "original": "*.corp.example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 11822
+        }
+      ]
+    },
+    {
+      "i": 387,
+      "original": "tool name",
+      "translation": "工具名称",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 19281
+        }
+      ]
+    },
+    {
+      "i": 388,
+      "original": "MCP tool name as the server reports it.",
+      "translation": "服务器报告的 MCP 工具名称。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 19350
+        }
+      ]
+    },
+    {
+      "i": 389,
+      "original": "Approval state locked for this tool. Unlisted tools stay user-controlled.",
+      "translation": "此工具的批准状态已锁定。未列出的工具仍由用户控制。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 19623
+        }
+      ]
+    },
+    {
+      "i": 390,
+      "original": "Server name",
+      "translation": "服务器名称",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 19778
+        }
+      ]
+    },
+    {
+      "i": 391,
+      "original": "server-name",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 19897
+        }
+      ]
+    },
+    {
+      "i": 392,
+      "original": "Name of the plugin-delivered MCP server this policy applies to.",
+      "translation": "此策略适用的插件提供的 MCP 服务器名称。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 19968
+        }
+      ]
+    },
+    {
+      "i": 393,
+      "original": "Per-tool approval locks for this server.",
+      "translation": "此服务器各工具的批准状态锁定设置。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 20249
+        }
+      ]
+    },
+    {
+      "i": 394,
+      "original": "How the app connects: Streamable HTTP, legacy SSE, or a local command (stdio). policy-only connects to nothing; it only sets a plugin server’s tool policy.",
+      "translation": "应用的连接方式：Streamable HTTP、旧版 SSE 或本地命令（stdio）。policy-only 不连接任何服务器，仅设置插件服务器的工具策略。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 22333
+        }
+      ]
+    },
+    {
+      "i": 395,
+      "original": "Static headers sent on every request — routing and tenant headers only. No credentials here; use the headers helper script for tokens and rotating values.",
+      "translation": "每次请求发送的静态请求头，仅用于路由和租户信息。不含凭据；令牌和轮换值请使用请求头助手脚本。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 23964
+        }
+      ]
+    },
+    {
+      "i": 396,
+      "original": "How long the helper’s headers are reused before it runs again, in seconds. Defaults to 300.",
+      "translation": "助手请求头在重新运行助手前的复用秒数，默认 300。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 24173
+        }
+      ]
+    },
+    {
+      "i": 397,
+      "original": "Seconds before the TTL expires at which the helper re-runs mid-session. Defaults to 60. Keep it larger than the helper’s typical runtime.",
+      "translation": "会话中在 TTL 到期前多少秒重新运行助手，默认 60。应大于助手通常的运行时间。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 24314
+        }
+      ]
+    },
+    {
+      "i": 398,
+      "original": "github",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 24590
+        }
+      ]
+    },
+    {
+      "i": 399,
+      "original": "Unique name for this server. Shown to users and used to key tool policy and sign-in state.",
+      "translation": "此服务器的唯一名称，向用户显示，并用作工具策略及登录状态的索引。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 24656
+        }
+      ]
+    },
+    {
+      "i": 400,
+      "original": "toolName",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 25358
+        }
+      ]
+    },
+    {
+      "i": 401,
+      "original": "Lock the approval state for specific tools. Unlisted tools stay user-controlled.",
+      "translation": "锁定指定工具的批准状态。未列出的工具仍由用户控制。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 25426
+        }
+      ]
+    },
+    {
+      "i": 402,
+      "original": "From your IdP app registration",
+      "translation": "来自 IdP 应用注册",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 28406
+        }
+      ]
+    },
+    {
+      "i": 403,
+      "original": "OAuth client ID from your IdP app registration. Leave unset to auto-register (dynamic client registration) and only narrow scopes.",
+      "translation": "IdP 应用注册的 OAuth 客户端 ID。留空则自动注册客户端（动态客户端注册），且仅缩小作用域。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 28496
+        }
+      ]
+    },
+    {
+      "i": 404,
+      "original": "Only for IdPs that require one (e.g. Box). Hosted config can store only a Google Desktop-app secret (GOCSPX-…); for other IdPs use the client secret helper.",
+      "translation": "仅在 IdP 要求时提供（如 Box）。托管配置只能存放 Google 桌面应用密钥（GOCSPX-…）；其他 IdP 请使用客户端密钥助手。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 28885
+        }
+      ]
+    },
+    {
+      "i": 405,
+      "original": "Absolute path",
+      "translation": "绝对路径",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 29379
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 43379
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 47309
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 61316
+        }
+      ]
+    },
+    {
+      "i": 406,
+      "original": "Executable that prints the client secret on stdout as a JSON object with a single clientSecret key; any other output is rejected. Overrides the inline value.",
+      "translation": "在 stdout 输出仅包含 clientSecret 键的 JSON 对象的程序；任何其他输出均被拒绝。覆盖直接填写的值。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 29452
+        }
+      ]
+    },
+    {
+      "i": 407,
+      "original": "[\"https://api.box.com\"]",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 30676
+        }
+      ]
+    },
+    {
+      "i": 408,
+      "original": "Required when a client secret is configured. For a Google client use [\"https://accounts.google.com\"]; for mcp.box.com, [\"https://api.box.com\"].",
+      "translation": "配置客户端密钥时必填。Google 客户端使用 [\"https://accounts.google.com\"]；mcp.box.com 使用 [\"https://api.box.com\"]。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 30820
+        }
+      ]
+    },
+    {
+      "i": 409,
+      "original": "Authorization URL",
+      "translation": "授权 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 31227
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 71578
+        }
+      ]
+    },
+    {
+      "i": 410,
+      "original": "Token URL",
+      "translation": "令牌 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 31665
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 71844
+        }
+      ]
+    },
+    {
+      "i": 411,
+      "original": "Required for single-tenant Entra apps. Leave blank for multi-tenant or non-Microsoft IdPs.",
+      "translation": "单租户 Entra 应用必填。多租户或非 Microsoft IdP 可留空。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 32193
+        }
+      ]
+    },
+    {
+      "i": 412,
+      "original": "api://…/access_as_user offline_access",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 33937
+        }
+      ]
+    },
+    {
+      "i": 413,
+      "original": "Space-separated scopes sent on the authorize request. Leave unset to use the scopes the server advertises. Required when Tenant ID is set.",
+      "translation": "授权请求发送的作用域，以空格分隔。留空则使用服务器公布的作用域。设置租户 ID 时必填。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 34039
+        }
+      ]
+    },
+    {
+      "i": 414,
+      "original": "Scope is required when Tenant ID is set.",
+      "translation": "设置租户 ID 时，作用域为必填项。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 34311
+        }
+      ]
+    },
+    {
+      "i": 415,
+      "original": "Callback host",
+      "translation": "回调主机",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 35115
+        }
+      ]
+    },
+    {
+      "i": 416,
+      "original": "Callback port",
+      "translation": "回调端口",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 35444
+        }
+      ]
+    },
+    {
+      "i": 417,
+      "original": "Only set if your IdP requires an exact-match redirect port. Entra accepts any.",
+      "translation": "仅当 IdP 要求精确匹配重定向端口时设置。Entra 接受任意端口。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 35573
+        }
+      ]
+    },
+    {
+      "i": 418,
+      "original": "Set by the Claude.ai control plane when it serves this configuration (the URL of Anthropic’s hosted client-metadata document); not authored.",
+      "translation": "由 Claude.ai 控制平面提供此配置时设置（Anthropic 托管客户端元数据文档的 URL），无需自行填写。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 39400
+        }
+      ]
+    },
+    {
+      "i": 419,
+      "original": "[\"https://auth.example.com\"]",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 39742
+        }
+      ]
+    },
+    {
+      "i": 420,
+      "original": "Required: the exact issuer URL(s) this server’s OAuth authorization server advertises. Anthropic signs the client identity only for the servers listed here.",
+      "translation": "必填：此服务器的 OAuth 授权服务器公布的精确签发方 URL。Anthropic 仅为此处列出的服务器签署客户端身份。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 39854
+        }
+      ]
+    },
+    {
+      "i": 421,
+      "original": "The exact issuer string(s) the server’s OAuth authorization server advertises in its metadata, as a JSON array — matched exactly, including path and any trailing slash. Required: Anthropic signs the client identity only for an authorization server listed here.",
+      "translation": "服务器 OAuth 授权服务器在元数据中公布的精确签发方字符串，以 JSON 数组填写。须完全匹配，包括路径及末尾斜杠。必填：Anthropic 仅为此处列出的授权服务器签署客户端身份。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 40075
+        }
+      ]
+    },
+    {
+      "i": 422,
+      "original": "SSE (legacy)",
+      "translation": "SSE（旧版）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 41283
+        }
+      ]
+    },
+    {
+      "i": 423,
+      "original": "Choose a transport: Streamable HTTP or SSE for a remote server, or a local command (stdio).",
+      "translation": "选择传输方式：远程服务器使用 Streamable HTTP 或 SSE，本地命令使用 stdio。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 41493
+        }
+      ]
+    },
+    {
+      "i": 424,
+      "original": "HTTPS endpoint of the remote MCP server.",
+      "translation": "远程 MCP 服务器的 HTTPS 端点。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 41711
+        }
+      ]
+    },
+    {
+      "i": 425,
+      "original": "OAuth",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 41832
+        }
+      ]
+    },
+    {
+      "i": 426,
+      "original": "Auto-register (dynamic client registration)",
+      "translation": "自动注册（动态客户端注册）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 41940
+        }
+      ]
+    },
+    {
+      "i": 427,
+      "original": "Bring your own client",
+      "translation": "使用自己的客户端",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 42026
+        }
+      ]
+    },
+    {
+      "i": 428,
+      "original": "Anthropic-hosted client identity (requires Claude.ai sign-in)",
+      "translation": "Anthropic 托管的客户端身份（需要 Claude.ai 登录）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 42093
+        }
+      ]
+    },
+    {
+      "i": 429,
+      "original": "OAuth for a remote server: true to auto-register a client, a pre-registered client ID with tenant and scope, or mode “hosted” for an Anthropic-signed identity.",
+      "translation": "远程服务器的 OAuth：true 表示自动注册客户端；也可提供预注册的客户端 ID、租户及作用域，或使用“hosted”模式获取 Anthropic 签署的身份。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 42215
+        }
+      ]
+    },
+    {
+      "i": 430,
+      "original": "X-Tenant-ID",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 43070
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 60983
+        }
+      ]
+    },
+    {
+      "i": 431,
+      "original": "Headers helper script",
+      "translation": "请求头助手脚本",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 43266
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 61203
+        }
+      ]
+    },
+    {
+      "i": 432,
+      "original": "Absolute path to an executable that prints a JSON object of HTTP headers on stdout. Merged over static headers; the helper wins on conflict.",
+      "translation": "在 stdout 输出 HTTP 请求头 JSON 对象的程序绝对路径。与静态请求头合并，冲突时以助手输出为准。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 43498
+        }
+      ]
+    },
+    {
+      "i": 433,
+      "original": "Helper cache TTL (sec)",
+      "translation": "助手缓存 TTL（秒）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 43762
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 48398
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 62041
+        }
+      ]
+    },
+    {
+      "i": 434,
+      "original": "/usr/local/bin/uvx",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 46043
+        }
+      ]
+    },
+    {
+      "i": 435,
+      "original": "[\"mcp-server-fetch\"]",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 46504
+        }
+      ]
+    },
+    {
+      "i": 436,
+      "original": "Arguments passed to the command, one per entry.",
+      "translation": "传给命令的参数，每项一个。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 46584
+        }
+      ]
+    },
+    {
+      "i": 437,
+      "original": "Environment variables set for the command.",
+      "translation": "为命令设置的环境变量。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 46984
+        }
+      ]
+    },
+    {
+      "i": 438,
+      "original": "Which bundled connector this entry turns on. Set instead of a transport; each built-in server has its own fields.",
+      "translation": "此条目启用的内置连接器。使用此项替代传输方式；每个内置服务器均有自己的字段。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 51967
+        }
+      ]
+    },
+    {
+      "i": 439,
+      "original": "global",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 56869
+        }
+      ]
+    },
+    {
+      "i": 440,
+      "original": "Continuous Access Evaluation",
+      "translation": "持续访问评估",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 57331
+        }
+      ]
+    },
+    {
+      "i": 441,
+      "original": "enabled",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 57458
+        }
+      ]
+    },
+    {
+      "i": 442,
+      "original": "Request CAE-capable Microsoft Graph tokens: long-lived (up to about 28 hours) but revocable within minutes. Set “disabled” to keep standard one-hour tokens.",
+      "translation": "请求支持 CAE 的 Microsoft Graph 令牌：有效期较长（最多约 28 小时），但可在数分钟内撤销。设为“disabled”则保留标准的一小时令牌。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 57552
+        }
+      ]
+    },
+    {
+      "i": 443,
+      "original": "Runs search from the desktop, for inference providers without native web search. Supply the provider’s API key through the headers helper script below.",
+      "translation": "在桌面执行搜索，供不支持原生网页搜索的推理提供商使用。通过下方请求头助手脚本提供其 API 密钥。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 59897
+        }
+      ]
+    },
+    {
+      "i": 444,
+      "original": "https://github.example.com",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 64426
+        }
+      ]
+    },
+    {
+      "i": 445,
+      "original": "repo read:org",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 65087
+        }
+      ]
+    },
+    {
+      "i": 446,
+      "original": "Toolsets",
+      "translation": "工具集",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 65820
+        }
+      ]
+    },
+    {
+      "i": 447,
+      "original": "context,repos,issues,pull_requests",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 65942
+        }
+      ]
+    },
+    {
+      "i": 448,
+      "original": "https://login.microsoftonline.com/TENANT/v2.0",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 70945
+        }
+      ]
+    },
+    {
+      "i": 449,
+      "original": "HTTPS issuer with OIDC discovery. Set this, or set the authorization and token URLs instead.",
+      "translation": "支持 OIDC 发现的 HTTPS 签发方。可设置此项，或改为设置授权 URL 和令牌 URL。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 71034
+        }
+      ]
+    },
+    {
+      "i": 450,
+      "original": "OAuth client ID of the desktop app registration at your identity provider (public client, PKCE).",
+      "translation": "桌面应用在身份提供商注册的 OAuth 客户端 ID（公共客户端，PKCE）。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 71289
+        }
+      ]
+    },
+    {
+      "i": 451,
+      "original": "Issuer URL",
+      "translation": "签发方 URL",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 71457
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 72097
+        }
+      ]
+    },
+    {
+      "i": 452,
+      "original": "HTTPS authorization endpoint. Used with the token URL when no issuer is set.",
+      "translation": "HTTPS 授权端点。未设置签发方时，与令牌 URL 配合使用。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 71663
+        }
+      ]
+    },
+    {
+      "i": 453,
+      "original": "HTTPS token endpoint. Used with the authorization URL when no issuer is set.",
+      "translation": "HTTPS 令牌端点。未设置签发方时，与授权 URL 配合使用。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 71921
+        }
+      ]
+    },
+    {
+      "i": 454,
+      "original": "Redirect port",
+      "translation": "重定向端口",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 72248
+        }
+      ]
+    },
+    {
+      "i": 455,
+      "original": "(ephemeral)",
+      "translation": "（临时）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 72312
+        }
+      ]
+    },
+    {
+      "i": 456,
+      "original": "Fixed loopback port for the sign-in redirect. Leave unset to use a free port each time.",
+      "translation": "登录重定向使用的固定回环端口。留空则每次使用空闲端口。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 72383
+        }
+      ]
+    },
+    {
+      "i": 457,
+      "original": "Redirect host",
+      "translation": "重定向主机",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 72542
+        }
+      ]
+    },
+    {
+      "i": 458,
+      "original": "openid profile email offline_access",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 73296
+        },
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 74669
+        }
+      ]
+    },
+    {
+      "i": 459,
+      "original": "Space-separated scopes. Defaults to openid profile email offline_access.",
+      "translation": "以空格分隔的作用域。默认为 openid profile email offline_access。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 73391
+        }
+      ]
+    },
+    {
+      "i": 460,
+      "original": "openid offline_access CLIENT_ID/.default",
+      "translation": null,
+      "disposition": "preserve-source-token-or-metadata",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 73927
+        }
+      ]
+    },
+    {
+      "i": 461,
+      "original": "Space-separated scopes. Required in access-token mode: set the gateway or proxy API scope. offline_access is appended automatically unless disabled below.",
+      "translation": "以空格分隔的作用域。访问令牌模式下必填，请设置网关或代理的 API 作用域。除非下方禁用，否则会自动附加 offline_access。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 74764
+        }
+      ]
+    },
+    {
+      "i": 462,
+      "original": "Bearer token",
+      "translation": "Bearer 令牌",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 75431
+        }
+      ]
+    },
+    {
+      "i": 463,
+      "original": "ID token (default)",
+      "translation": "ID 令牌（默认）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 75505
+        }
+      ]
+    },
+    {
+      "i": 464,
+      "original": "Access token",
+      "translation": "访问令牌",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 75575
+        }
+      ]
+    },
+    {
+      "i": 465,
+      "original": "Resource indicator (RFC 8707)",
+      "translation": "资源标识（RFC 8707）",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 77265
+        }
+      ]
+    },
+    {
+      "i": 466,
+      "original": "Access-token audience of the gateway or proxy: an https URL or an AD FS relying-party identifier, sent as the RFC 8707 resource. Leave unset for Entra ID.",
+      "translation": "网关或代理的访问令牌受众：HTTPS URL 或 AD FS 信赖方标识符，作为 RFC 8707 resource 发送。Entra ID 可留空。",
+      "disposition": "translate-fixed-ui",
+      "references": [
+        {
+          "file": "c9de94b11-BYSrgQ7v.js",
+          "field": "defaultMessage",
+          "start": 77473
+        }
+      ]
+    }
+  ]
+}
