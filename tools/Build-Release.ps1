@@ -10,7 +10,7 @@ $taskBuildRoot=Join-Path $taskOutputRoot ('build-'+[Guid]::NewGuid().ToString('N
 $taskPackageName='Claude-ZH-Patch-v'+$taskReleaseVersion
 $taskPackageRoot=Join-Path $taskBuildRoot $taskPackageName
 New-Item -ItemType Directory -Path $taskPackageRoot -Force | Out-Null
-$taskAllowed=@('Install.cmd','Install.ps1','Launch.ps1','Restore.cmd','Status.cmd','Verify.cmd','Verify.ps1','payload','词典','验证','README.md','使用说明.md','验证说明.md','CHANGELOG.md','VERSION','LICENSE','LICENSE-upstream.txt','THIRD_PARTY_NOTICES.md','tools')
+$taskAllowed=@('Install.cmd','Install.ps1','Launch.ps1','Rebuild.cmd','Rebuild.ps1','Restore.cmd','Status.cmd','Verify.cmd','Verify.ps1','payload','词典','验证','README.md','使用说明.md','验证说明.md','CHANGELOG.md','VERSION','LICENSE','LICENSE-upstream.txt','THIRD_PARTY_NOTICES.md','tools')
 foreach($taskName in $taskAllowed){Copy-Item -LiteralPath (Join-Path $taskRepoRoot $taskName) -Destination $taskPackageRoot -Recurse}
 $taskChecksumRows=@(foreach($taskFile in Get-ChildItem -LiteralPath $taskPackageRoot -Recurse -File|Sort-Object FullName){$taskRelative=$taskFile.FullName.Substring($taskPackageRoot.Length+1).Replace('\','/');(Get-FileHash -LiteralPath $taskFile.FullName).Hash.ToLower()+'  '+$taskRelative})
 [IO.File]::WriteAllText((Join-Path $taskPackageRoot 'SHA256SUMS.txt'),($taskChecksumRows-join "`n")+"`n",[Text.UTF8Encoding]::new($false))

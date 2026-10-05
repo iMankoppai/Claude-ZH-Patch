@@ -3,7 +3,7 @@
   "packageVersion": "2.19675.0.0",
   "appVersion": "2.19675.0",
   "family": "Claude_pzs8sxrjxfjjc",
-  "upstreamCommit": "3c1c9a6ea082ce6501e0e7fd92ce5bd3c4681056",
+  "upstreamCommit": "f7b5f33fc9455ebfaf62735ccf88d52243849821",
   "core": {
     "claude.exe": "01579D245E9E8BA7B4B864907E046E48F792074D3AF4B0C50EEA6EA59CAC5E0D",
     "resources/app.asar": "05662AB2988E12DAF908E00E94174AE6F05AB46D2B6A742A57DA681F7AEA4365",
@@ -16,8 +16,8 @@
       "target": "resources/zh-CN.json",
       "enHash": "D9178F7FEE5E9B86B10B4733B4E4A3B62EC80457F3ABBC3A6F59495B23FF7FD7",
       "payload": "payload/native.json",
-      "payloadHash": "0C6B7D73F3B6CB004F68222A8C8C0985E581264B9FCFABEAB08866DDC843CA50",
-      "count": 746,
+      "payloadHash": "3AD80AA10461E3E37D4B6A3C84317001FE0A19B633A04F766A23C388923C8C52",
+      "count": 754,
       "total": 758
     },
     {
@@ -26,8 +26,8 @@
       "target": "resources/ion-dist/i18n/zh-CN.json",
       "enHash": "BAC58F220EEF4D16EFFC60B178A4D6AF1FAA6513A752B7607FFF502FAC1917A4",
       "payload": "payload/frontend.json",
-      "payloadHash": "5006446B1631E232653873D42C21B918BD60506999C757FCCFE21162E1AB6A21",
-      "count": 11958,
+      "payloadHash": "AC6EAB6BC79C5A1F6ED3607269570102C62588B12E168778D58455F77C5E56B6",
+      "count": 32425,
       "total": 32801
     },
     {

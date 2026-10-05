@@ -3,7 +3,7 @@
 词典基础参考 `javaht/claude-desktop-zh-cn`：
 
 - 来源：https://github.com/javaht/claude-desktop-zh-cn
-- 固定提交：`3c1c9a6ea082ce6501e0e7fd92ce5bd3c4681056`
+- 固定提交：`f7b5f33fc9455ebfaf62735ccf88d52243849821`
 - Copyright (c) 2025 javaht
 - MIT 许可全文：[LICENSE-upstream.txt](./LICENSE-upstream.txt)
 

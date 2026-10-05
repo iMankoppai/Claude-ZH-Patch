@@ -1,15 +1,31 @@
 {
-  "schema": 1,
-  "releaseVersion": "1.0.0",
+  "schema": 2,
+  "releaseVersion": "1.0.1",
   "claudeDesktopVersion": "2.19675.0",
   "msixVersion": "2.19675.0.0",
   "platform": "Windows x64",
-  "manifestSha256": "57E0BCA2C44D89E350195A9F328A0CEAEC043A20ECC2F410E9F3C36AC463C130",
-  "verifiedDate": "2026-10-04",
+  "manifestSha256": "010FCB981DED769E645F20B3254163EA7A6CE5D5478DB83D17C112C52966DA20",
+  "verifiedDate": "2026-10-05",
+  "upstreamCommit": "f7b5f33fc9455ebfaf62735ccf88d52243849821",
   "translationCounts": {
-    "frontend": 11958,
-    "native": 746,
+    "frontend": 32425,
+    "native": 754,
     "dynamic": 49
+  },
+  "translationTotals": {
+    "frontend": 32801,
+    "native": 758,
+    "dynamic": 49
+  },
+  "coveragePercent": {
+    "frontend": 98.9,
+    "native": 99.5,
+    "dynamic": 100.0
+  },
+  "untranslatedResidue": {
+    "frontend": 376,
+    "composition": "Placeholder format strings, paths, constants, commands, brand and proper names, symbols; no translatable UI prose",
+    "realSentenceCount": 0
   },
   "localInstall": {
     "installed": true,
@@ -21,34 +37,110 @@
     "officialSignaturesValid": true,
     "extraDesktopShortcutCreated": false
   },
-  "targetedUi": {
-    "builtinSkillTooltips": 11,
-    "skillDescriptions": 15,
-    "pluginDescriptions": 2,
-    "recommendationCards": 6,
-    "connectorStatuses": 9,
-    "passed": true,
-    "boundary": "Recorded targeted views and representative detail pages; not all reachable product pages"
+  "checksRerunForThisRevision": {
+    "icuParsePlaceholderAndTag": {
+      "messagesChecked": 33608,
+      "parseFailuresChinese": 0,
+      "parseFailuresEnglishBaseline": 0,
+      "placeholderMismatches": 0,
+      "tagMismatches": 0,
+      "emptyTranslations": 0
+    },
+    "terminologyConsistency": {
+      "rules": [
+        "计算机 -> 电脑",
+        "思考深度 -> 思考强度",
+        "推理强度 -> 思考强度",
+        "投入度 -> 思考强度",
+        "最大思考强度 -> 最高思考强度",
+        "沙盒 -> 沙箱",
+        "工作空间 -> 工作区",
+        "SSH agent -> SSH 代理",
+        "定时任务 -> 计划任务",
+        "账户 -> 账号"
+      ],
+      "residue": 0,
+      "note": "Placeholders, code spans, product names and program names excluded from the residue count"
+    },
+    "productNamePreservation": {
+      "checked": [
+        "Artifact",
+        "Cowork",
+        "Claude Code",
+        "MCP",
+        "SSH",
+        "GitHub",
+        "Slack",
+        "Opus",
+        "Sonnet",
+        "Haiku",
+        "Office Agents",
+        "Claude Agent SDK"
+      ],
+      "retentionPercent": 100.0
+    },
+    "codeProtection": {
+      "spansClassifiedAsCodeOrPathOrCommand": 14,
+      "keptVerbatim": 14
+    },
+    "installFixture": {
+      "passed": true,
+      "modules": 12,
+      "boundary": "Fixture directory with official files reconstructed from the patch list; not a second physical computer"
+    },
+    "realRestoreAndReinstallCycle": {
+      "passed": true,
+      "sequence": "Restore.cmd then Install.cmd on the development computer",
+      "resourcesChecked": 902,
+      "accessRulesChecked": 903,
+      "backupsChecked": 898,
+      "rebuiltNativeBackup": true,
+      "boundary": "This computer only; not a second physical computer"
+    }
   },
-  "coworkSandbox": {
-    "passed": true,
-    "actualBashToolResponseObserved": true,
-    "linuxAssertionPassed": true,
-    "temporaryWriteReadAssertionPassed": true,
-    "independentHashMatched": true,
-    "originalOutputPreserved": true,
-    "sandboxUnavailableErrorObserved": false,
-    "exitCode": null,
-    "exitCodeNote": "Tool UI did not expose a separate numeric exit code",
-    "model": "DeepSeek V4.1 Flash",
-    "boundary": "One actual task in an existing sandbox; not first-time VM installation or all tools"
+  "notRerunForThisRevision": {
+    "targetedUi": "Recorded for v1.0.0; the expanded entries have not been re-observed page by page in the real interface",
+    "coworkSandbox": "Recorded for v1.0.0; not re-run for this revision"
   },
-  "isolatedPathAndRestoreTests": {
-    "passed": true,
-    "modules": 4,
-    "boundary": "Real patch modules in fixture directories; not a second physical computer"
+  "inheritedFromV100": {
+    "releaseVersion": "1.0.0",
+    "verifiedDate": "2026-10-04",
+    "manifestSha256": "57E0BCA2C44D89E350195A9F328A0CEAEC043A20ECC2F410E9F3C36AC463C130",
+    "translationCounts": {
+      "frontend": 11958,
+      "native": 746,
+      "dynamic": 49
+    },
+    "targetedUi": {
+      "builtinSkillTooltips": 11,
+      "skillDescriptions": 15,
+      "pluginDescriptions": 2,
+      "recommendationCards": 6,
+      "connectorStatuses": 9,
+      "passed": true,
+      "boundary": "Recorded targeted views and representative detail pages; not all reachable product pages"
+    },
+    "coworkSandbox": {
+      "passed": true,
+      "actualBashToolResponseObserved": true,
+      "linuxAssertionPassed": true,
+      "temporaryWriteReadAssertionPassed": true,
+      "independentHashMatched": true,
+      "originalOutputPreserved": true,
+      "sandboxUnavailableErrorObserved": false,
+      "exitCode": null,
+      "exitCodeNote": "Tool UI did not expose a separate numeric exit code",
+      "model": "DeepSeek V4.1 Flash",
+      "boundary": "One actual task in an existing sandbox; not first-time VM installation or all tools"
+    },
+    "isolatedPathAndRestoreTests": {
+      "passed": true,
+      "modules": 4,
+      "boundary": "Real patch modules in fixture directories; not a second physical computer"
+    }
   },
   "unverified": [
+    "Page-by-page review of the entries added in this revision",
     "Login and authentication failures",
     "Real security permission decisions",
     "First-time VM download and installation, failure branches",

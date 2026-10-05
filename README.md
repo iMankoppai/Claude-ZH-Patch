@@ -2,13 +2,13 @@
 
 Claude Desktop 的简体中文界面补丁，适用于 Windows x64 上的桌面 Code / Cowork。
 
-**当前发行版：v1.0.0。只支持 Claude Desktop 2.19675.0（MSIX 2.19675.0.0）。** 汉化包版本与 Claude 软件版本分别编号；终端 Claude Code CLI 不在此包范围。
+**当前发行版：v1.0.1。只支持 Claude Desktop 2.19675.0（MSIX 2.19675.0.0）。** 汉化包版本与 Claude 软件版本分别编号；终端 Claude Code CLI 不在此包范围。
 
-[下载 v1.0.0 完整包](https://github.com/iMankoppai/Claude-ZH-Patch/releases/tag/v1.0.0) · [安装与恢复](./使用说明.md) · [验证范围](./验证说明.md)
+[下载 v1.0.1 完整包](https://github.com/iMankoppai/Claude-ZH-Patch/releases/tag/v1.0.1) · [安装与恢复](./使用说明.md) · [验证范围](./验证说明.md)
 
 ## 安装
 
-1. 在 Releases 下载 `Claude-ZH-Patch-v1.0.0.zip`，**解压整个包**。
+1. 在 Releases 下载 `Claude-ZH-Patch-v1.0.1.zip`，**解压整个包**。
 2. 保存 Claude 草稿并结束正在运行的任务，双击 `Install.cmd`。
 3. 手动确认 Windows 管理员提示，等待安装完成，然后继续使用原开始菜单或任务栏入口。
 
@@ -19,6 +19,7 @@ Claude Desktop 的简体中文界面补丁，适用于 Windows x64 上的桌面 
 | `Install.cmd` | 安装；已安装同一修订时校验，不重复覆盖原始备份 |
 | `Verify.cmd` | 只读检查资源、官方签名、访问规则和本机备份 |
 | `Status.cmd` | 查看安装状态 |
+| `Rebuild.cmd` | 本机备份或日志丢失时，按发布清单反推官方原始文件并重建备份与日志；只读取 Claude 文件 |
 | `Restore.cmd` | 恢复本机原始资源、原语言设置和访问规则 |
 
 同一 Claude 版本切换汉化修订时，先使用旧修订的 `Restore.cmd`，再安装新包。软件版本、官方核心文件或待修改资源不匹配时会停止。官方更新后需要匹配新版本的补丁。
@@ -27,7 +28,7 @@ Claude Desktop 的简体中文界面补丁，适用于 Windows x64 上的桌面 
 
 已审阅的软件界面、原生菜单、帮助、固定状态与报错文案；补充插件和技能介绍、悬停说明、连接器来源与状态、计划任务推荐卡片等。
 
-当前前端词典含 11,958 个已译消息键，原生目录 746 项，动态目录 49 项。这些数字是词典统计，不能直接换算为页面覆盖率。四项高级原生诊断菜单保留英文。
+当前前端词典含 32,425 个已译消息键（占 32,801 条的 98.9%），原生目录 754 项（758 条的 99.5%），动态目录 49 项（100%）。这些数字是词典统计，不能直接换算为页面覆盖率。四项高级原生诊断菜单保留英文。
 
 对话正文、代码、命令、路径、名称、草稿和工具原始输出保持原文。只翻译经过审阅的固定界面内容，不使用全局文字替换。插件和技能的执行指令、连接器配置以及原文件不做翻译改写；未知插件说明不会自动强行翻译。
 
@@ -47,7 +48,7 @@ Claude Desktop 的简体中文界面补丁，适用于 Windows x64 上的桌面 
 
 ## 来源与许可
 
-词典基础参考 [javaht/claude-desktop-zh-cn](https://github.com/javaht/claude-desktop-zh-cn/tree/3c1c9a6ea082ce6501e0e7fd92ce5bd3c4681056)，固定提交 `3c1c9a6ea082ce6501e0e7fd92ce5bd3c4681056`，保留其 [MIT 许可](./LICENSE-upstream.txt)。本项目补充当前版本译文，并实现独立的备份、恢复和校验流程。
+词典基础参考 [javaht/claude-desktop-zh-cn](https://github.com/javaht/claude-desktop-zh-cn/tree/f7b5f33fc9455ebfaf62735ccf88d52243849821)，固定提交 `f7b5f33fc9455ebfaf62735ccf88d52243849821`，保留其 [MIT 许可](./LICENSE-upstream.txt)。本项目补充当前版本译文，并实现独立的备份、恢复和校验流程。
 
 本项目独立维护，与 Anthropic 无隶属或官方支持关系。项目自身代码和译文贡献采用 [MIT 许可](./LICENSE)；Claude 原始代码、名称、原文及补丁中的第三方片段仍归相应权利人，详见[第三方说明](./THIRD_PARTY_NOTICES.md)。
 

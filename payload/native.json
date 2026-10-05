@@ -12,7 +12,7 @@
   "+ZfCaxCk0y": "导入完成",
   "+aT0D9mFR4": "打开扩展文件夹",
   "+bUHNDYGdG": "前往",
-  "+n5D2xZZFm": "将为此计算机开启远程控制。",
+  "+n5D2xZZFm": "将为此电脑开启远程控制。",
   "+rUDCO79Js": "扫描 5 秒…",
   "+vRFr4+yQ/": "允许 Claude 控制 {apps}？",
   "/2yTD12Rf+": "远程控制已关闭",
@@ -638,7 +638,7 @@
   "qKeKrKCSD+": "MCP 配置重新加载失败",
   "qSgK8yJV+p": "{pct} · {when} 重置",
   "qc5Ud3Dmgi": "查找…",
-  "qyFRy5Dmiu": "登录 {host} 持续失败。如果需要密码或一次性验证码，请打开会话并发送消息，以便输入；否则请解锁 SSH agent 或检查密钥。",
+  "qyFRy5Dmiu": "登录 {host} 持续失败。如果需要密码或一次性验证码，请打开会话并发送消息，以便输入；否则请解锁SSH 代理或检查密钥。",
   "r/37cmiGuE": "无法打开技能",
   "r6AwevAvuz": "释放 Cowork 磁盘空间…",
   "r7yWnNBpJl": "连接",
@@ -744,5 +744,13 @@
   "zTrDHxC7yZ": "BLE API 仅在桌面应用处于开发者模式时可用。它面向创客和开发者，并不是官方支持的产品功能。",
   "zasatRyQg/": "在 Finder 中显示 Cowork 会话数据",
   "ze7mxSJ8h8": "打开",
-  "zebmnp7vyF": "SSH 配置存在错误。{host} 上的会话已保留，修复后会重新连接。"
+  "zebmnp7vyF": "SSH 配置存在错误。{host} 上的会话已保留，修复后会重新连接。",
+  "45E6u2ngvv": "{mA} mA",
+  "Bx8SVIBqp8": "{kb} KB",
+  "dsgmG2ONi3": "{pct}%",
+  "pU6Pzn7NcO": "{label}（{shortcut}）",
+  "eSjfVO7/ZY": "Pro 套餐",
+  "jewac1Lnjr": "Max 套餐",
+  "r5qwoawSEV": "企业版",
+  "sbKWowIMSe": "免费版"
 }
